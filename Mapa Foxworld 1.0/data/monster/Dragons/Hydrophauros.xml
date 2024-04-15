@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hydrophauros" nameDescription="a hydrophauros" race="blood" experience="90000" speed="460" manacost="0">
+  <health now="25000" max="25000"/>
+  <look type="121" head="20" body="30" legs="40" feet="50" corpse="6048"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="115" attack="154" poison="500"/>
+    <attack name="speed" interval="2000" chance="17" range="7" radius="5" target="1" speedchange="-680" duration="35000">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="greenbubble"/>
+    </attack>
+    <attack name="ice" interval="2000" chance="14" length="8" spread="3" min="-515" max="-750">
+      <attribute key="areaEffect" value="bluebubble"/>
+    </attack>
+    <attack name="earth" interval="3000" chance="12" length="8" spread="3" min="-360" max="-420">
+      <attribute key="areaEffect" value="plantattack"/>
+    </attack>
+
+    <attack name="ice" interval="1000" chance="12" range="7" target="1" min="-485" max="-520">
+	<attribute key="shootEffect" value="smallice"/>
+    </attack>
+
+  </attacks>
+	<defenses armor="25" defense="35">
+		<defense name="healing" interval="2000" chance="15" min="270" max="580">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="-5"/>
+		<element holyPercent="30"/>
+		<element icePercent="50"/>
+		<element energyPercent="-10"/>
+	</elements>
+  <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="FCHHHHH"/>
+    <voice sentence="DESTRUCTION!"/>
+    <voice sentence="HISSSS"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="90" chance1="100000" chancemax="0"/> -- Gold Coin
+    <item id="2148" countmax="80" chance1="100000" chancemax="0"/>
+    <item id="2666" countmax="4" chance="70000"/> -- Meat
+    <item id="2498" chance="300"/> -- Royal Helmet
+    <item id="2195" chance="200"/> -- Boots of Haste
+    <item id="2475" chance="1000"/> -- Warrior Helmet
+    <item id="1987" chance="100000">
+      <inside>
+		<item id="2148" countmax="80" chance1="100000" chancemax="0"/> --Gold coin
+        <item id="2214" chance="1200"/> -- Ring of Healing
+		<item id="2671" countmax="3" chance="65000"/> -- Ham
+	    <item id="2146" countmax="2" chance="5000"/> -- small sapphire
+        <item id="2177" chance="2000"/> -- Life Crystal
+        <item id="2476" chance="1111"/> -- Knight Armor
+        <item id="4850" chance="1200"/> -- Hydra Egg 
+        <item id="2149" countmax="3" chance1="30000" chancemax="0"/> -- Small Emerald
+        <item id="2536" chance="12000"/> -- Medusa Shield
+        <item id="2168" chance="25000"/> -- Life Ring
+        <item id="2197" chance="1000"/> -- StoneSkin Amulet
+        <item id="8923" chance="8000"/> -- Elven legs
+      </inside>
+    </item>
+  </loot>
+</monster>

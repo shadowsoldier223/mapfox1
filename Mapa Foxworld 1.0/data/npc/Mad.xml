@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<npc name="Big Foose" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0"> 
+    <health now="100" max="100"/> 
+	<look type="136" head="114" body="113" legs="113" feet="2" corpse="2212" addons="3"/>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="ola |PLAYERNAME|. eu vendo, parcel e Letter? diga {trade} ." />
+		<parameter key="shop_buyable" value="Letter,2597,15;Parcel,2595,30;" />
+	</parameters>
+</npc> 

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gold Demon" nameDescription="Gold Demon" race="undead" experience="500000" speed="700" manacost="0">
+  <health now="350000" max="350000"/>
+  <look type="12" head="78" body="78" legs="0" feet="94" corpse="1746"/>
+  <targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="1500" skill="100" attack="60" fire="60"/>
+    <attack name="ultimate explosion" interval="5000" chance="70" min="-100" max="-1000"/>
+	<attack name="melee" interval="3000" chance="70" radius="8" target="0" min="-10" max="-1500">
+		<attribute key="areaEffect" value="yellowenergy"/>
+	</attack>
+    <attack name="firefield" interval="2500" chance="100" range="7" radius="5" target="1">
+    <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="fire" interval="12000" chance="70" length="7" spread="7" min="-10" max="-1500">
+	<attribute key="areaEffect" value="firearea"/>
+	</attack>
+    <attack name="fire" interval="4000" chance="100" radius="6" min="-10" max="-2000">
+    <attribute key="areaEffect" value="fireattack"/>
+    </attack>
+  </attacks>
+  <defenses armor="70" defense="65">
+    <defense name="healing" interval="5000" chance="50" min="1" max="10000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="10000" chance="50" speedchange="100" duration="5000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+
+  </defenses>
+<elements>
+		<element icePercent="-50"/>
+		<element holyPercent="-50"/>
+		<element deathPercent="-50"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity earth="0"/>
+    <immunity fire="0"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  	<summons maxSummons="5">
+		<summon name="demon" interval="2000" chance="20"/>
+		<summon name="deathslicer" interval="3000" chance="50"/>
+		<summon name="massive fire elemental" interval="5000" chance="50"/>
+		<summon name="deathslicer" interval="3000" chance="20"/>
+		<summon name="demon" interval="2000" chance="50"/>
+	</summons>
+
+  <voices interval="5000" chance="30">
+    <voice sentence="GET OUT OF MY PARADISE!" yell="1"/>
+    <voice sentence="DON'T TOUCH MY GOLD!" yell="1"/>
+  </voices>
+
+<loot>
+	<item id="7431" chance="74000" /> -- demonbone
+	<item id="2514" chance="48000" /> -- mastermind shield
+	<item id="6300" chance="28500" /> -- death ring
+	<item id="2004" chance="100000" > -- bag
+	<item id="7438" chance="25000"/> -- golden bow
+		<inside>
+	<item id="2741" chance="100000" /> -- golden helmet
+	<item id="2495" chance="70000" /> -- demon legs
+	<item id="7431" chance="35000" /> -- demonbone
+	<item id="2195" chance="74000" /> -- boots of haste
+		</inside>
+	</item>
+</loot>
+
+</monster>

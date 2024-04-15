@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Bless Seller" script="data/npc/scripts/bless.lua" access="1" lookdir="1">
+	<health now="1000" max="1000"/>
+<look type="140" head="0" body="94" legs="94" feet="94" addons="2" /> 
+</npc>

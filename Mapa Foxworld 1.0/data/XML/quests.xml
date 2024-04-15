@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="Demon Legs Quest" startstorageid="2007" startstoragevalue="1">
+		<mission name="Demon Legs Quest" storageid="2007" startvalue="1" endvalue="1">
+			<missionstate id="1" description="Parabens voce completou a Demon Legs Quest. Premio: 1 Demon Legs."/>
+		</mission>
+	</quest>
+	<quest name="Anihilator Quest" startstorageid="5010" startstoragevalue="1">
+		<mission name="Anihilator Quest" storageid="5010" startvalue="1" endvalue="1">
+			<missionstate id="1" description="Parabens voce completou a Anihilator. Premio1 : 1 infernal bolt, 1 boots of haste e 500k. Premio 2 : 1 Stonecutter Axe ou 1 Thunder Hammer ou 1 Magic Sword ou 1 Demon Armor."/>
+		</mission>
+	</quest>
+	<quest name="Warlock Quest" startstorageid="1789" startstoragevalue="1">
+		<mission name="Warlock Quest" storageid="1789" startvalue="1" endvalue="1">
+			<missionstate id="1" description="Parabens voce completou a Warlock Quest. Premios : Blue Staff e Magician Hat."/>
+		</mission>
+	</quest>
+	<quest name="Demon Helmet Quest" startstorageid="4891" startstoragevalue="1">
+		<mission name="Demon Helmet Quest" storageid="4891" startvalue="1" endvalue="1">
+			<missionstate id="1" description="Parabens voce completou a Demon Helmet Quest. Premios : Demon Helmet, Demon Shield."/>
+		</mission>
+	</quest>
+	<quest name="Horned Helmet Quest" startstorageid="1229" startstoragevalue="1">
+		<mission name="Horned Helmet Quest" storageid="1229" startvalue="1" endvalue="1">
+			<missionstate id="1" description="Parabens voce completou a Horned Helmet Quest. Premio : 1 Horned Helmet."/>
+		</mission>
+	</quest>
+	<quest name="Frozen Dragon Quest" startstorageid="4567" startstoragevalue="1">
+		<mission name="Frozen Dragon Quest" storageid="4567" startvalue="1" endvalue="1">
+			<missionstate id="1" description="Parabens voce completou a Frozen Dragon Quest. Premio : 1 Tempest Shield."/>
+		</mission>
+	</quest>
+	<quest name="Warlock Quest" startstorageid="3340" startstoragevalue="1">
+		<mission name="Warlock Quest" storageid="3340" startvalue="1" endvalue="1">
+			<missionstate id="1" description="Parabens voce completou a Dark Warlock Quest. Premio : Blue Legs."/>
+		</mission>
+	</quest>
+        <quest name="Yakotep Misterio Quest" startstorageid="3477" startstoragevalue="1">
+		<mission name="Yakotep Misterio Quest" storageid="3477" startvalue="1" endvalue="1">
+			<missionstate id="1" description="Parabens voce completou a Yakotep Misterio Quest. Premio : Winged Helmet."/>
+		</mission>
+	</quest>
+</quests>

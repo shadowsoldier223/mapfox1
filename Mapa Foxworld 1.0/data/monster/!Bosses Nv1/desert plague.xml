@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Desert Plague" nameDescription="desert plague" race="undead" experience="10000" speed="500" manacost="0">
+  <health now="100000" max="100000"/>
+  <look type="12" head="0" body="78" legs="97" feet="0" corpse="6068"/>
+  <targetchange interval="10000" chance="15"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+	<attack name="melee" interval="500" skill="150" attack="150"/>
+	<attack name="manadrain" interval="4000" chance="20" radius="8" target="0" min="-600" max="-1100">
+		<attribute key="areaEffect" value="yellowenergy"/>
+	</attack>
+              <attack name="fire wave" interval="2000" chance="100" min="-700" max="-1200"/>
+	<attack name="physical" interval="5000" chance="20" range="2" target="1" min="-50" max="-1175">
+		<attribute key="shootEffect" value="whirlwindsword"/>
+	</attack>
+	<attack name="death" interval="3000" chance="15" length="5" spread="4" min="-250" max="-900">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+</attacks>
+  <defenses armor="70" defense="65">
+    <defense name="healing" interval="5000" chance="10" min="2000" max="2500">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="4000" chance="80" speedchange="440" duration="6000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+
+  </defenses>
+<elements>
+		<element icePercent="15"/>
+		<element holyPercent="-10"/>
+		<element deathPercent="20"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity earth="0"/>
+    <immunity fire="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  	<summons maxSummons="2">
+		<summon name="deathslicer" interval="30000" chance="100"/>
+		<summon name="deathslicer" interval="30000" chance="100"/>
+	</summons>
+
+  <voices interval="5000" chance="30">
+    <voice sentence="IS THAT THE BEST YOU HAVE TO OFFER, TIBIANS?" yell="1"/>
+    <voice sentence="I AM THE PLAGUE THAT KILLED ALL DESERT" yell="1"/>
+    <voice sentence="THE SKY CRY WITH MY POWER"/>
+  </voices>
+
+<loot>
+	<item id="2160" chance="100000" countmax="30" /> -- crystal coin
+	<item id="6300" chance="12000" /> -- death ring
+	<item id="2004" chance="100000" > -- bag
+		<inside>
+	<item id="2160" chance="100000" countmax="20" /> -- crystal coin
+		</inside>
+	</item>
+</loot>
+
+</monster>

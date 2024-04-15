@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wind Demon" nameDescription="Wind Demon" race="undead" experience="15000" speed="700" manacost="0">
+  <health now="9000" max="9000"/>
+  <look type="12" head="19" body="19" legs="74" feet="19" corpse="6068"/>
+  <targetchange interval="10000" chance="15"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="500" skill="50" attack="50" ice="50"/>
+            <attack name="earth" interval="2000" chance="50" radius="3" target="1" min="-350" max="-500">
+            <attribute key="areaEffect" value="stones"/>
+		</attack>
+		<attack name="fireball" interval="4000" chance="100" min="-350" max="-500"/>
+	<attack name="melee" interval="3000" chance="70" radius="4" target="0" min="-350" max="-500">
+		<attribute key="areaEffect" value="icetornado"/>
+	</attack>
+    <attack name="fire" interval="12000" chance="70" radius="4" min="-350" max="-500">
+	<attribute key="areaEffect" value="energyarea"/>
+	</attack>
+    <attack name="fire" interval="2000" chance="100" radius="3" min="-350" max="-500">
+    <attribute key="areaEffect" value="holyarea"/>
+    </attack>
+  </attacks>
+  <defenses armor="70" defense="65">
+    <defense name="healing" interval="2000" chance="100" min="10" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="15000" chance="80" speedchange="800" duration="2000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+
+  </defenses>
+<elements>
+		<element icePercent="5"/>
+		<element holyPercent="5"/>
+		<element deathPercent="5"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity earth="0"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  	<summons maxSummons="2">
+		<summon name="skeleton warrior" interval="5000" chance="50"/>
+		<summon name="skeleton warrior" interval="5000" chance="50"/>
+	</summons>
+
+  <voices interval="5000" chance="30">
+    <voice sentence="DEATHWIND SCYTHER !!" yell="1"/>
+    <voice sentence="I'LL BLOW YOU OF MY WAY !!" yell="1"/>
+  </voices>
+
+<loot>
+	<item id="2148" chance="20000" countmax="27" /> -- gold coin
+	<item id="6300" chance="50000" /> -- death ring
+	<item id="1987" chance="100000" > -- bag
+	<item id="2148" chance="30000" countmax="53" /> -- gold coin
+	<item id="2154" chance="7000" /> -- gema de knight
+	<item id="2155" chance="7000" /> -- gema de druid
+		<inside>
+	<item id="2148" chance="50000" countmax="53" /> -- gold coin
+	<item id="2472" chance="10000" /> -- mpa
+	<item id="2148" chance="70000" countmax="53" /> -- gold coin
+	<item id="2158" chance="7000" /> -- gema de paladin
+	<item id="2156" chance="7000" /> -- gema de sorcerer
+		</inside>
+	</item>
+</loot>
+</monster>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+        <globalevent name="basin do templo" interval="3" script="basin do templo.lua"/>
+        <globalevent name="sqms do templo" interval="1" script="sqms do templo.lua"/>
+        <globalevent name="clean" interval="3600" script="clean.lua"/>
+        <globalevent name="propagandabranca" interval="1800" script="propagandabranca.lua"/>
+        <globalevent name="propagandaverde" interval="1000" script="propagandaverde.lua"/>
+        <globalevent name="loteria" interval="7200" script="sistemadeloteria.lua"/>
+        <globalevent name="tower" interval="60" script="tower.lua"/>
+        <globalevent name="castle" interval="5" script="castle.lua"/>
+</globalevents>

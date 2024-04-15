@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Barrier" nameDescription="a Barrier" race="undead" experience="1" speed="0" manacost="0">
+  <health now="100000" max="100000"/>
+  <look typeex="3766" head="20" body="30" legs="40" feet="50" corpse="0"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="barreira" interval="1000"/>
+  </attacks>
+  <defenses armor="100" defense="100">
+    <defense name="healing" interval="4000" chance="85" min="5000" max="20000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+</monster>

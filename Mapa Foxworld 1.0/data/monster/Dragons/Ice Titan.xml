@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ice Titan" nameDescription="an ice titan" race="undead" experience="25999" speed="175" manacost="0">
+  <health now="20000" max="20000"/>
+  <look type="261" head="20" body="30" legs="40" feet="50" corpse="7282"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="950" min="-600" max="-850"/>
+    <attack name="speed" interval="1000" chance="10" length="8" spread="0" speedchange="-1000" duration="200">
+      <attribute key="areaEffect" value="sleep"/>
+    </attack>
+    <attack name="physical" interval="850" chance="50" range="15" min="-250" max="-300">
+      <attribute key="shootEffect" value="energyball"/>
+    </attack>
+<attack name="melee" interval="2000" chance="25" range="1" radius="5" target="1" min="-500" max="-800">
+  <attribute key="areaEffect" value="yalaharighost"/>
+</attack>
+    <attack name="physical" interval="3000" chance="25" length="5" spread="3" min="-1000" max="-1500">
+      <attribute key="areaEffect" value="giantice"/>
+    </attack>
+  </attacks>
+  <defenses armor="25" defense="26">
+  </defenses>
+  <elements>
+	<element energyPercent="-20"/>
+	<element physicalPercent="-5"/>
+  </elements>
+  <immunities>
+    <immunity fire="0"/>
+    <immunity ice="0"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="Grr."/>
+  </voices>
+  <loot>
+    <item id="2152" countmax="20" chance1="100000" chancemax="0"/> --Platinum Coins
+    <item id="2672" countmax="5" chance1="100000" chancemax="0"/> --Dragon Ham
+    <item id="2396" countmax="1" chance1="2200" chancemax="0"/> --Ice Rapier
+    <item id="2656" chance="1666"/> --Blue Robe
+    <item id="2158" countmax="1" chance1="1933" chancemax="0"/> --Blue Gem
+    <item id="7730" chance="1222"/> --Blue Legs
+    <item id="10521" chance="100000"> --Moon Backpack
+      <inside>
+          <item id="2146" countmax="1" chance1="4200" chancemax="0"/> --Small Sapphire
+          <item id="2640" chance="150"/> --Pair of Soft Boots
+          <item id="8866" chance="450"/> --Ice Titan Robe
+          <item id="2542" chance="703"/> --Ice Titan Shield
+          <item id="2167" chance="3111"/> --Energy Ring
+       </inside>
+     </item>
+  </loot>
+</monster>

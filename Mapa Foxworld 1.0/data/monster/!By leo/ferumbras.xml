@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ferumbras" nameDescription="a ferumbras" race="venom" experience="75000" speed="450" manacost="0">
+	<health now="50000" max="50000"/>
+	<look type="229" head="20" body="30" legs="40" feet="50" corpse="6078"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="10000"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="700" skill="110" attack="110"/>
+		<attack name="manadrain" interval="3000" chance="20" range="7" target="1" min="-1000" max="-1200">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="20" radius="7" target="0" min="-1000" max="-1800">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="energy" interval="3000" chance="35" radius="7" target="0" min="-800" max="-1700">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="death" interval="1000" chance="20" radius="8" target="0" min="-500" max="-1100">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="lifedrain" interval="1000" chance="15" length="6" spread="2" min="-600" max="-1000">
+			<attribute key="areaEffect" value="greenspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="60" defense="60">
+		<defense name="invisible" interval="2000" chance="13" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+               <defense name="healing" interval="2000" chance="10" min="100" max="2000">
+                                             <attribute key="areaEffect" value="blueshimmer"/>
+                              </defense>
+	</defenses>
+	<elements>
+		<element firePercent="90"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="5">
+		<summon name="demon" interval="5500" chance="15"/>
+	</summons>
+	<voices interval="5000" chance="20">
+		<voice sentence="NOONE WILL STOP ME THIS TIME!" yell="1"/>
+		<voice sentence="THE POWER IS MINE!" yell="1"/>
+		<voice sentence="I returned from death and you dream about defeating me?" />
+		<voice sentence="Even in my weakened state I will crush you all"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="25" chance1="100000" chancemax="0"/> --Gold
+		<item id="2514" chance="50000"/> --mastermind shield
+		<item id="2472" chance="35000"/> --mpa		
+		<item id="2470" chance="40000"/> --Golden Legs
+		<item id="2148" countmax="80" chance1="100000" chancemax="0"/> --Gold
+		<item id="2148" countmax="75" chance1="100000" chancemax="0"/> -- Gold
+		<item id="9970" countmax="74" chance1="6500"/> --small topaz
+		<item id="1987" chance="100000">
+			<inside>
+				<item id="2522" chance="10000"/> --Great Shield
+				<item id="2147" countmax="46" chance1="4500"/> --small ruby
+				<item id="2145" countmax="46" chance1="3500" chancemax="0"/> --Small diamond
+				<item id="2462" chance="12400"/> --devil helmet
+				<item id="2149" countmax="3" chance1="1428" chancemax="0"/>
+				<item id="5903" chance="70000"/> -- ferumbras hat
+			</inside>
+		</item>
+	</loot>
+</monster>

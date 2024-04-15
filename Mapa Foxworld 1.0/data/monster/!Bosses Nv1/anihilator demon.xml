@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Anihilator Demon" nameDescription="Anihilator Demon" race="blood" experience="35000" speed="1000" manacost="0">
+  <health now="85000" max="85000"/>
+  <look type="12" head="0" body="38" legs="38" feet="94" corpse="2916"/>
+    <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="1"/>
+    <flag lightcolor="1"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" skill="100" attack="100"/>
+    <attack name="banshee sonar" interval="5000" chance="50" min="-100" max="-500"/>
+    <attack name="rage of the skies" interval="5000" chance="50" min="-100" max="-500"/>
+    <attack name="orshabaal berserk" interval="5000" chance="50" min="-300" max="-500"/>
+    <attack name="great energy beam" interval="10000" chance="100" min="-500" max="-1000"/>
+  </attacks>
+  <defenses armor="100" defense="100">
+  </defenses>
+  <immunities>
+    <immunity fire="1"/>
+    <immunity earth="1"/>
+    <immunity ice="1"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+      <voice sentence="DESTRUCTION!" yell="1"/>
+      <voice sentence="I'm not called of Anihilator Demon for Nothing!" yell="1"/>
+      <voice sentence="ANIHILATION TO ALL!" yell="1"/>
+    </voices>
+  <summons maxSummons="2">
+    <summon name="demon" interval="100000" chance="1"/>
+  </summons>
+  <loot>
+    <item id="2148" countmax="57" chance="74000"/> --GP
+    <item id="2795" countmax="57" chance1="78000" chancemax="0"/> --Fire Mushroom
+    <item id="2472" chance="15000"/> --Magic Plate Armor
+    <item id="7441" chance="27000"/> --Golden Legs
+    <item id="1987" chance="100000"> --Bag
+    <item id="2392" chance="25000"/> --Fire Sword
+      <inside>
+          <item id="2514" chance="22500"/> --Mastermind Shield
+          <item id="7449" chance="27000"/> --Crystal Sword
+          <item id="2148" countmax="87" chance="57000"/> --GP
+          <item id="2165" chance="35000"/> --Stealth Ring
+       </inside>
+     </item>
+  </loot>
+</monster>

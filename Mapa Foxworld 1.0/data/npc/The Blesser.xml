@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<npc name="The Blesser" script="data/npc/scripts/bless.lua" walkinterval="2000" floorchange="0"> 
+    <health now="100" max="100"/>
+               <look type="140" head="0" body="94" legs="108" feet="94" addons="2" corpse="2212"/>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Eu concedo bless, diga: first bless, second bless, third bless, fourth bless e fifth bless. Obvio tudo na vida tem seu custo." />
+		<parameter key="shop_buyable" value="Amulet Of Loss,2173,10000;Stone Skin Amulet,2197,100000;" />
+	</parameters>
+</npc> 

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frozen Soul" nameDescription="Frozen Soul" race="undead" experience="2755000" speed="700" manacost="0">
+  <health now="350000" max="350000"/>
+  <look type="12" head="0" body="85" legs="89" feet="0" corpse="2916"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="4000"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1200" skill="100" attack="180"/>
+    <attack name="orshabaal berserk" interval="5000" chance="30" min="-400" max="-1000"/>
+    <attack name="eternal winter" interval="2000" chance="30" min="-800" max="-1000"/>
+    <attack name="ice wave" interval="3000" chance="30" min="-750" max="-1500"/>
+    <attack name="speed" interval="1000" chance="13" length="8" spread="0" speedchange="-800" duration="20000">
+      <attribute key="areaEffect" value="energy"/>
+    </attack>
+    <attack name="physical" interval="2000" chance="30" range="7" target="1" min="-600" max="-1000">
+      <attribute key="shootEffect" value="largerock"/>
+    </attack>
+<attack name="melee" interval="2000" chance="30" range="7" radius="4" target="0" min="-500" max="-1200">
+  <attribute key="areaEffect" value="blackspark"/>
+</attack>
+  </attacks>
+  <defenses armor="25" defense="100">
+  </defenses>
+  <elements>
+	<element energyPercent="-50"/>
+	<element physicalPercent="-80"/>
+  </elements>
+  <immunities>
+    <immunity fire="1"/>
+    <immunity ice="1"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="3">
+    <summon name="frozen dragon" interval="7000" chance="100"/>
+    <summon name="frozen dragon" interval="7000" chance="100"/>
+    <summon name="frozen dragon" interval="7000" chance="100"/>				 
+  </summons>
+  <voices interval="2000" chance="45">
+    <voice sentence="YOU AREN'T STRONG ENOUGH TO KILL ME"/>
+    <voice sentence="I'LL FREEZE YOUR BODY."/>
+    <voice sentence="DIEEE!"/>
+    <voice sentence="GET OUT OF MY WAY YOUR INSIGNICANT HUMAN!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="20" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="7290" chance="3666"/> --Shard
+    <item id="8907" chance="25000"/> --Ice Shield
+    <item id="2145" countmax="1" chance1="3333" chancemax="0"/> --Small Diamond
+    <item id="8879" chance="40000"/> --Phantasm Armor
+    <item id="1987" chance="100000"> --Bag
+      <inside>
+          <item id="2148" countmax="20" chance1="100000" chancemax="0"/> --Gold Coins
+          <item id="2146" countmax="1" chance1="4200" chancemax="0"/> --Small Sapphire
+          <item id="2396" chance="7000"/> --Ice Rapier
+          <item id="2361" chance="17000"/> --Frozen Starlight
+          <item id="2390" chance="40000"/> --Magic LongSword
+          <item id="7449" chance="1999"/> --Crystal Sword
+       </inside>
+     </item>
+  </loot>
+</monster>

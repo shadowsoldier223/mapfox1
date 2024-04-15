@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="cosmic star" nameDescription="a cosmic star" race="undead" experience="100000000" speed="850" manacost="0">
+  <health now="500000" max="500000"/>
+  <look typeex="2361" corpse="2361"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-5000" max="-10000"/>
+       <attack name="outfit" interval="6000" chance="100" radius="8" target="0" monster="cosmic star" duration="10000">
+       <attribute key="areaEffect" value="bluebubble"/>
+    </attack>
+    <attack name="energy" interval="3000" chance="35" radius="5" min="-200" max="-500">
+      <attribute key="areaEffect" value="whitenote"/>
+    </attack>
+    <attack name="ice" interval="8000" chance="100" radius="4" min="-200" max="-700">
+      <attribute key="areaEffect" value="bluenote"/>
+    </attack>
+    <attack name="manadrain" interval="3000" chance="25" range="7" min="-100" max="-500">
+      <attribute key="areaEffect" value="redshimmer"/>
+  </attack>
+  </attacks>
+  <defenses armor="2" defense="2">
+    <defense name="healing" interval="10000" chance="100" min="35000" max="200000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+	<element deathPercent="-10"/>
+	<element physicalPercent="10"/>
+	<element icePercent="-50"/>
+	<element firePercent="-50"/>
+	<element energyPercent="-50"/>
+  </elements>
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+    <summons maxSummons="1">
+		<summon name="banshiria" interval="5000" chance="50"/>
+	</summons>
+</monster>

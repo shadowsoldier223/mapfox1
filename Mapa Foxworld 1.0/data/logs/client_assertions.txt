@@ -1,0 +1,1844 @@
+----- 13/12/2011 02:09:12 - [ADM] LiRoU (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2686
+Tue Dec 13 02:06:48 2011
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 170 180 104 109 104 109 104 109 104 109
+Last Packet: 180 021 041 000 032 045 032 068 097 116 097 058 032 049 051 047
+Player Position: [426,671,7]
+Player Name: [ADM] LiRoU (BlackWorld)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 170) (MainWindow = 36443648), reason:
+Communication.cpp 2692: exception occurred (Mode = 22) (Channel = 0), reason:
+Communication.cpp 2686: unknown talk mode (Mode = 22), reason:
+[bug0000649]
+Comment: 
+----- 14/12/2011 13:15:16 - [ADM] LiRoU (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Wed Dec 14 13:15:07 2011
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 131 106 180 104 109 104 109 131 100
+Last Packet: 109 186 002 175 000 007 001 186 002 174 000 007 101 166 017 004
+Player Position: [698,175,7]
+Player Name: [ADM] LiRoU (BlackWorld)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 36378208), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017] (4520, 0), reason:
+ sx: 8 sy: 6 sz: 0
+ Position: 1
+ zx: 8 zy: 5 zz: 0
+ dx: 0 dy: -1 dz: 0
+ abs_sx: 698 abs_sy: 175 abs_sz: 7
+ abs_zx: 698 abs_zy: 174 abs_zz: 7
+ Start Cylinder (1):  (100,0) (4520,0) (6216,0) (99,268438939)
+ Start Cylinder (2):  (100,0) (4520,0) (99,268438939) (6216,0)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (4515,0)
+ Destination Cylinder (2):  (4515,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Comment: 
+----- 09/01/2012 16:43:55 - Krotlyskyser (127.0.0.1) -----
+Debug Assertion 8.40 GUI.cpp 1207
+Mon Jan 09 16:41:39 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 021 162 132 106 132 170 160 160 162 131
+Last Packet: 021 230 009 072 105 103 104 115 099 111 114 101 032 102 111 114
+Player Position: [442,554,5]
+Player Name: Krotlyskyser (BlackWorld)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 1 MaW: 21D1660 MoW: 1C5BF68), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+GUI.cpp 1478: exception occurred (Surface = 1), reason:
+GUI.cpp 1233: exception occurred (Surface = 1) (i = 1), reason:
+GUI.cpp 1207: dialog origin outside main window (surface: 1 x: 526 y: -316 DrawingListLength: 9 i: 1 DrawingList.Skin: 49 DrawingList.x: 4 DrawingList.y: 0 DrawingList.width: 216 DrawingList.height: 17 DrawingList.srcx: 0 DrawingList.srcy: 0)
+Comment: 
+----- 13/08/2012 00:58:38 - [ADM] Red (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 1842
+Mon Aug 13 00:55:21 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 108 103 103 102 191 109 103 109 102
+Last Packet: 109 179 001 040 002 007 001 179 001 039 002 007 101 102 003 031
+Player Position: [435,552,7]
+Player Name: [ADM] Red (BlackWorld)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 37427096), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 1842: Player object is not where it should be, reason:
+ hx: 8 hy: 6 hz: 0
+ Cylinder (1):  (870,0) (2129,0)
+ Cylinder (2):  (870,0) (2129,0)(-)(-)(-)(-)(-)(-)(-)(-)
+Comment: 
+----- 31/08/2012 04:16:48 - [ADM] Moon (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Aug 31 04:16:31 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 107 030 109 131 180 180 109 131
+Last Packet: 180 018 002 000 047 097 109 186 001 031 002 005 001 186 001 030
+Player Position: [442,542,5]
+Player Name: [ADM] Moon (BlackWorld)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 36246776), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 2
+ Position: 1
+ zx: 8 zy: 5 zz: 2
+ dx: 0 dy: -1 dz: 0
+ abs_sx: 442 abs_sy: 543 abs_sz: 5
+ abs_zx: 442 abs_zy: 542 abs_zz: 5
+ Start Cylinder (1):  (410,0) (99,268438798)
+ Start Cylinder (2):  (410,0) (99,268438798)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1297,0) (1738,0)
+ Destination Cylinder (2):  (1297,0) (1738,0)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268438798 Name: [ADM] Moon
+ RealX: 442 RealY: 542 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 03/09/2012 21:32:40 - Raining Bow (127.0.0.1) -----
+Debug Assertion 8.40 Utils.cpp 470
+Mon Sep 03 21:32:31 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 200 107 107 107 107 107 107 107 107 107
+Last Packet: 200 000 000 100 000 023 128 000 007 000 067 105 116 105 122 101
+Player Position: [440,552,7]
+Player Name: Raining Bow (BlackWorld)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 200) (MainWindow = 36508920), reason:
+Communication.cpp 3006: exception occurred, reason:
+Network.cpp 536: exception occurred (MaxLength = 30), reason:
+Utils.cpp 470: assertion failed (Position = 21) (Size-Length = -29493), reason:
+Position<=Size-Length
+Comment: 
+----- 15/10/2012 10:33:14 - Dark Blizz (67.224.238.227) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 06:32:40 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 107 107 107 107 107 107 107 107 131
+Last Packet: 132 182 001 041 002 007 180 009 000 065 097 097 097 097 104 046
+Player Position: [441,551,7]
+Player Name: Dark Blizz (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 2881660 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 029D7E78)
+Comment: 
+----- 15/10/2012 11:20:55 - Brasstemp (189.12.219.34) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 11:20:47 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 132 131 132 131 132 140 109 109 104 103
+Last Packet: 170 000 000 000 000 006 000 075 108 111 115 101 100 077 000 001
+Player Position: [440,552,7]
+Player Name: Klosed (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 37754512), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 61616161)
+Comment: 
+----- 15/10/2012 11:20:57 - Gisele (186.215.24.191) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 11:20:58 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 132 180 162 131 160 160 132 131 132 140
+Last Packet: 170 000 000 000 000 006 000 075 108 111 115 101 100 077 000 001
+Player Position: [437,552,7]
+Player Name: Gisele (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 43062520), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 61616161)
+Comment: 
+----- 15/10/2012 11:21:13 - By Criis (187.23.20.98) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 11:20:46 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: OpenGL (1)
+Last Packet Types: 132 131 132 131 132 140 109 109 109 109
+Last Packet: 170 000 000 000 000 006 000 075 108 111 115 101 100 077 000 001
+Player Position: [440,550,7]
+Player Name: [ADMIN]Carlos (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 132) (MainWindow = 161957344), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 61616161)
+Comment: 
+----- 15/10/2012 11:21:53 - Fuie (189.47.104.166) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 11:20:45 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 132 131 132 180 162 131 160 160 132 162
+Last Packet: 170 000 000 000 000 006 000 075 108 111 115 101 100 077 000 001
+Player Position: [435,552,7]
+Player Name: Fuie (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 132) (MainWindow = 161039840), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 61616161)
+Comment: 
+----- 15/10/2012 11:22:20 - Tica (177.118.251.158) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 11:20:46 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: OpenGL (1)
+Last Packet Types: 132 131 132 131 132 140 109 109 109 109
+Last Packet: 170 000 000 000 000 006 000 075 108 111 115 101 100 077 000 001
+Player Position: [443,549,7]
+Player Name: Tica (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 33364400), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 61616161)
+Comment: 
+----- 15/10/2012 11:30:15 - Dew Mons (201.26.3.64) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 11:29:46 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 107 109 107 109 107 132 109 131 132
+Last Packet: 109 181 001 040 002 007 001 180 001 040 002 007 000 000 000 000
+Player Position: [439,556,7]
+Player Name: Dew Mons (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 1051F48 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 00000018)
+Comment: 
+----- 15/10/2012 11:40:47 - Blindadoo (189.32.107.63) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 11:20:46 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 131 132 131 132 140 181 180 109 109 107
+Last Packet: 170 000 000 000 000 006 000 075 108 111 115 101 100 077 000 001
+Player Position: [437,554,7]
+Player Name: Veloxter (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 2129760), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 61616161)
+Comment: 
+----- 15/10/2012 13:38:49 - Hairan (201.66.145.57) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 13:38:18 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 107 160 160 140 030 107 160 160 140
+Last Packet: 107 041 010 221 008 007 001 074 011 005 107 041 010 220 008 007
+Player Position: [2601,2263,7]
+Player Name: Hairan (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 28A1660 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 00000044)
+Comment: 
+----- 15/10/2012 15:07:30 - Supreme Elder (187.14.230.244) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Sun Oct 14 16:26:05 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 107 107 107 107 107 107 107 107 131
+Last Packet: 170 000 000 000 000 013 000 083 117 112 114 101 109 101 032 069
+Player Position: [437,550,7]
+Player Name: Supreme Elder (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 29574624), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 67676767)
+Comment: 
+----- 15/10/2012 15:07:32 - Hairan (201.66.145.57) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 15:07:21 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 107 107 107 107 107 107 107 107 131
+Last Packet: 170 000 000 000 000 013 000 083 117 112 114 101 109 101 032 069
+Player Position: [436,551,7]
+Player Name: Hairan (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 43456272), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 67676767)
+Comment: 
+----- 15/10/2012 15:08:05 - By Criis (187.23.20.98) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 15:07:18 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: OpenGL (1)
+Last Packet Types: 180 163 180 107 107 107 107 107 107 107
+Last Packet: 170 000 000 000 000 013 000 083 117 112 114 101 109 101 032 069
+Player Position: [437,552,7]
+Player Name: By Criis (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 180) (MainWindow = 161957344), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 67676767)
+Comment: 
+----- 15/10/2012 15:08:27 - Braykan (201.26.3.64) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 15:07:35 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 107 107 107 107 107 107 107 107 131
+Last Packet: 170 000 000 000 000 013 000 083 117 112 114 101 109 101 032 069
+Player Position: [440,548,7]
+Player Name: Braykan (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 17112904), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 67676767)
+Comment: 
+----- 15/10/2012 15:08:31 - Hairan (201.66.145.57) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 15:08:10 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 131 143 106 132 132 131 143 131 106 132
+Last Packet: 143 150 051 000 016 230 001 131 187 001 035 002 006 015 000 000
+Player Position: [445,552,7]
+Player Name: Hairan (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 2781710 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 9AA6AEEC)
+Comment: 
+----- 15/10/2012 15:21:47 - By Criis (187.23.20.98) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Mon Oct 15 15:19:52 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: OpenGL (1)
+Last Packet Types: 107 131 132 132 162 160 160 140 180 170
+Last Packet: 131 177 001 023 002 007 053 107 174 001 023 002 007 003 144 016
+Player Position: [433,534,7]
+Player Name: By Criis (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 149954336), reason:
+Communication.cpp 1764: exception occurred (rx = 5) (ry = 7), reason:
+Communication.cpp 1741: assertion failed (rx = 5) (ry = 7), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 15/10/2012 15:42:39 - Supreme Elder (187.14.230.244) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Sun Oct 14 17:01:14 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 160 160 140 131 106 107 104 101 109 132
+Last Packet: 170 000 000 000 000 007 000 074 117 110 105 110 104 111 089 001
+Player Position: [2014,1924,7]
+Player Name: Supreme Elder (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 19406592), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 15:42:40 - Juninho (177.43.120.242) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 15:42:21 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 140 131 100 108 104 109 103 109 104 109
+Last Packet: 170 000 000 000 000 007 000 074 117 110 105 110 104 111 089 001
+Player Position: [2011,1924,7]
+Player Name: Juninho (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 35068200), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 15:50:29 - Supreme Elder (187.14.230.244) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Sun Oct 14 17:09:07 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 133 131 132 131 132 131 132 132 132 109
+Last Packet: 170 000 000 000 000 007 000 074 117 110 105 110 104 111 093 001
+Player Position: [2029,2051,8]
+Player Name: Supreme Elder (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 133) (MainWindow = 29574624), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 15:50:30 - Hairan (201.66.145.57) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 15:50:22 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 133 131 132 131 132 131 109 132 109 160
+Last Packet: 170 000 000 000 000 007 000 074 117 110 105 110 104 111 093 001
+Player Position: [2028,2057,8]
+Player Name: Hairan (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 133) (MainWindow = 44766992), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 15:50:50 - Juninho (177.43.120.242) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 15:50:14 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 133 131 132 131 180 160 160 134 144 132
+Last Packet: 170 000 000 000 000 007 000 074 117 110 105 110 104 111 093 001
+Player Position: [2028,2055,8]
+Player Name: Juninho (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 36051240), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 15:51:57 - Kiti Boy (186.250.11.21) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Mon Oct 15 15:18:48 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 131 132 132 140 170 132 180 160 160
+Last Packet: 131 177 001 023 002 007 053 107 174 001 023 002 007 003 144 016
+Player Position: [433,535,7]
+Player Name: Kiti Boy (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 44177704), reason:
+Communication.cpp 1764: exception occurred (rx = 5) (ry = 6), reason:
+Communication.cpp 1741: assertion failed (rx = 5) (ry = 6), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 15/10/2012 16:29:37 - Dona Tomasia (201.40.58.189) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 16:29:40 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 132 132 132 109 131 170 131 143 133 133
+Last Packet: 132 186 001 042 002 007 215 008 000 044 032 032 032 032 180 032
+Player Position: [440,553,7]
+Player Name: Dona Tomasia (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 1E61600 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 00000044)
+Comment: 
+----- 15/10/2012 17:06:43 - Acccount Manager (177.43.120.242) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 17:05:51 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 109 132 109 109 109 132 109 131 132
+Last Packet: 170 000 000 000 000 016 000 065 099 099 099 111 117 110 116 032
+Player Position: [440,559,7]
+Player Name: Acccount Manager (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 29147840), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 17:07:25 - By Criis (187.23.20.98) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 17:06:58 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: OpenGL (1)
+Last Packet Types: 109 180 132 132 180 160 160 140 109 180
+Last Packet: 170 000 000 000 000 016 000 065 099 099 099 111 117 110 116 032
+Player Position: [461,557,6]
+Player Name: By Criis (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 161957344), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 17:09:48 - Tio Da Gema (177.43.120.242) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 17:06:52 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 132 132 140 109 109 109 133 131 132
+Last Packet: 170 000 000 000 000 016 000 065 099 099 099 111 117 110 116 032
+Player Position: [462,555,6]
+Player Name: Acccount Manager (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 35789640), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 17:12:55 - Knight (187.11.144.120) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 07:21:22 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 109 109 133 131 132 131 133 131 132
+Last Packet: 170 000 000 000 000 011 000 084 105 111 032 068 097 032 071 101
+Player Position: [482,564,8]
+Player Name: Knight (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 32130528), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 17:13:09 - [ADMIN]Carlos (187.23.20.98) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 17:12:41 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: OpenGL (1)
+Last Packet Types: 109 109 180 109 180 180 133 131 132 131
+Last Packet: 170 000 000 000 000 011 000 084 105 111 032 068 097 032 071 101
+Player Position: [484,564,8]
+Player Name: By Criis (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 149954336), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 15/10/2012 17:13:19 - Tio Da Gema (177.43.120.242) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Mon Oct 15 17:12:35 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 109 103 109 133 131 132 131 133 131
+Last Packet: 170 000 000 000 000 011 000 084 105 111 032 068 097 032 071 101
+Player Position: [488,566,8]
+Player Name: Tio Da Gema (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 050 048 046 057 056 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = -1) (MainWindow = 35461960), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 47474747)
+Comment: 
+----- 21/10/2012 23:33:24 - Gem Seller (177.9.255.178) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Sun Oct 21 23:33:11 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 101 109 160 160 161 132 133 133 133
+Last Packet: 107 133 004 100 004 005 002 227 011 100 106 133 004 100 004 005
+Player Position: [1157,1120,5]
+Player Name: Gem Seller (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 057 046 049 052 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 36640400), reason:
+Communication.cpp 1764: exception occurred (rx = 8) (ry = 10), reason:
+Communication.cpp 1741: assertion failed (rx = 8) (ry = 10), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 22/10/2012 00:10:08 - Gem Seller (177.9.255.178) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Mon Oct 22 00:09:54 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 180 131 160 140 107 107 107 107 131
+Last Packet: 107 187 001 038 002 006 003 227 011 100 106 187 001 038 002 006
+Player Position: [434,550,6]
+Player Name: Gem Seller (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 057 046 049 052 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 36640400), reason:
+Communication.cpp 1764: exception occurred (rx = 17) (ry = 6), reason:
+Communication.cpp 1741: assertion failed (rx = 17) (ry = 6), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 22/10/2012 00:10:17 - Storns Vixx (177.126.204.122) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Mon Oct 22 00:09:46 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 131 140 107 107 107 107 107 107 107
+Last Packet: 107 187 001 038 002 006 003 227 011 100 106 187 001 038 002 006
+Player Position: [438,554,7]
+Player Name: Storns Vixx (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 057 046 049 052 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 45291816), reason:
+Communication.cpp 1764: exception occurred (rx = 12) (ry = 1), reason:
+Communication.cpp 1741: assertion failed (rx = 12) (ry = 1), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 22/10/2012 00:11:16 - Gem Seller (177.9.255.178) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Mon Oct 22 00:11:04 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 114 109 132 132 132 170 107 107 107
+Last Packet: 114 000 000 107 187 001 038 002 006 003 227 011 100 106 187 001
+Player Position: [444,550,6]
+Player Name: Gem Seller (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 057 046 049 052 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 37623440), reason:
+Communication.cpp 1764: exception occurred (rx = 7) (ry = 6), reason:
+Communication.cpp 1741: assertion failed (rx = 7) (ry = 6), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 22/10/2012 00:11:19 - Jujuba (187.23.19.147) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Mon Oct 22 00:09:56 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: OpenGL (1)
+Last Packet Types: 107 140 107 107 107 107 107 107 107 107
+Last Packet: 107 187 001 038 002 006 003 227 011 100 106 187 001 038 002 006
+Player Position: [445,550,6]
+Player Name: Jujuba (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 057 046 049 052 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 150291936), reason:
+Communication.cpp 1764: exception occurred (rx = 6) (ry = 6), reason:
+Communication.cpp 1741: assertion failed (rx = 6) (ry = 6), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 22/10/2012 00:11:22 - Storns Vixx (177.126.204.122) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Mon Oct 22 00:10:57 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 109 132 132 132 109 107 107 107 107
+Last Packet: 107 187 001 038 002 006 003 227 011 100 106 187 001 038 002 006
+Player Position: [440,553,7]
+Player Name: Storns Vixx (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 057 046 049 052 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 44767928), reason:
+Communication.cpp 1764: exception occurred (rx = 10) (ry = 2), reason:
+Communication.cpp 1741: assertion failed (rx = 10) (ry = 2), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 22/10/2012 00:11:25 - Xinxa (177.80.157.227) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Mon Oct 22 00:11:23 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 109 132 132 132 109 170 107 107 107
+Last Packet: 107 187 001 038 002 006 003 227 011 100 106 187 001 038 002 006
+Player Position: [442,549,6]
+Player Name: Xinxa (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 057 046 049 052 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 150675200), reason:
+Communication.cpp 1764: exception occurred (rx = 9) (ry = 7), reason:
+Communication.cpp 1741: assertion failed (rx = 9) (ry = 7), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 22/10/2012 00:19:37 - Saimon (177.8.241.14) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Mon Oct 22 00:09:49 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 140 107 107 107 107 107 107 107 107
+Last Packet: 107 187 001 038 002 006 003 227 011 100 106 187 001 038 002 006
+Player Position: [442,554,7]
+Player Name: By Suh (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 057 046 049 052 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 40680664), reason:
+Communication.cpp 1764: exception occurred (rx = 8) (ry = 1), reason:
+Communication.cpp 1741: assertion failed (rx = 8) (ry = 1), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 15:11:42 - Jujuba (187.23.18.227) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Fri Oct 26 14:57:06 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: OpenGL (1)
+Last Packet Types: 180 132 132 132 132 180 180 132 132 180
+Last Packet: 170 000 000 000 000 013 000 087 111 108 115 116 121 032 071 114
+Player Position: [238,137,7]
+Player Name: Max Myttos (FoxWorld 2)
+Player Action: 050 048 048 046 057 056 046 050 048 049 046 049 051 050 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 180) (MainWindow = 148971296), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at A0A0A0A0)
+Comment: 
+----- 26/10/2012 15:40:51 - Druid Loko (200.153.229.101) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Fri Oct 26 15:40:13 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 107 107 107 107 107 107 107 107 109
+Last Packet: 107 186 001 040 002 007 000 154 001 107 186 001 042 002 007 000
+Player Position: [439,552,7]
+Player Name: Druid Loko (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 50F1F00 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at FFFFFFE9)
+Comment: 
+----- 26/10/2012 17:53:36 - Dri Rullez (201.3.107.40) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Fri Oct 26 17:52:18 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 132 101 109 101 109 107 107 104 109 140
+Last Packet: 132 182 001 041 002 007 180 008 000 180 032 046 032 032 032 032
+Player Position: [442,559,7]
+Player Name: Dri Rullez (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 10FA1F00 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at FF47478B)
+Comment: 
+----- 26/10/2012 18:14:42 - Gem Seller (189.78.187.18) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Fri Oct 26 18:12:56 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 132 109 132 109 132 170 109 109 109
+Last Packet: 132 184 001 037 002 007 251 008 000 046 032 032 032 032 180 032
+Player Position: [439,552,7]
+Player Name: Gem Seller (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 1E47F70 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 01FE8008)
+Comment: 
+----- 26/10/2012 18:29:37 - Sky Rullesz (177.51.63.84) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Oct 26 18:28:37 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 133 131 132 131 030 180 133 131 132
+Last Packet: 109 135 004 100 004 005 001 134 004 100 004 005 131 134 004 097
+Player Position: [1155,1122,5]
+Player Name: Sky Rullesz (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 35699856), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 12 sy: 8 sz: 2
+ Position: 1
+ zx: 11 zy: 8 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 1159 abs_sy: 1124 abs_sz: 5
+ abs_zx: 1158 abs_zy: 1124 abs_zz: 5
+ Start Cylinder (1):  (1210,0) (99,268441669)
+ Start Cylinder (2):  (1210,0) (99,268441669)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2889,5) (2889,5)
+ Destination Cylinder (2):  (2889,5) (2889,5)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268441669 Name: Experience
+ RealX: 1158 RealY: 1124 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 26/10/2012 18:29:39 - Supremo nerd (189.38.41.27) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Oct 26 18:28:40 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 133 131 132 131 133 131 132 131 140
+Last Packet: 109 135 004 100 004 005 001 134 004 100 004 005 131 134 004 097
+Player Position: [1156,1120,5]
+Player Name: Supremo nerd (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 35591776), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 11 sy: 10 sz: 2
+ Position: 1
+ zx: 10 zy: 10 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 1159 abs_sy: 1124 abs_sz: 5
+ abs_zx: 1158 abs_zy: 1124 abs_zz: 5
+ Start Cylinder (1):  (1210,0) (99,268441669)
+ Start Cylinder (2):  (1210,0) (99,268441669)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2889,5) (2889,5)
+ Destination Cylinder (2):  (2889,5) (2889,5)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268441669 Name: Experience
+ RealX: 1158 RealY: 1124 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 26/10/2012 18:30:18 - Experience (177.158.177.244) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Oct 26 18:28:53 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 133 131 132 131 180 160 160 134 162
+Last Packet: 109 135 004 100 004 005 001 134 004 100 004 005 104 173 001 000
+Player Position: [1158,1124,5]
+Player Name: Experience (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 23247984), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 2
+ Position: 1
+ zx: 7 zy: 6 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 1159 abs_sy: 1124 abs_sz: 5
+ abs_zx: 1158 abs_zy: 1124 abs_zz: 5
+ Start Cylinder (1):  (1210,0) (99,268441669)
+ Start Cylinder (2):  (1210,0) (99,268441669)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2889,5) (2889,5)
+ Destination Cylinder (2):  (2889,5) (2889,5)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268441669 Name: Experience
+ RealX: 1158 RealY: 1124 RealZ: 5
+ DeltaX: -8 DeltaY: 0
+Comment: 
+----- 26/10/2012 18:31:08 - Supremo nerd (189.38.41.27) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Oct 26 18:30:12 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 170 131 131 131 131 131 131 131 131
+Last Packet: 109 135 004 100 004 005 001 134 004 100 004 005 000 000 000 000
+Player Position: [1157,1122,5]
+Player Name: Supremo nerd (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 36443648), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 10 sy: 8 sz: 2
+ Position: 1
+ zx: 9 zy: 8 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 1159 abs_sy: 1124 abs_sz: 5
+ abs_zx: 1158 abs_zy: 1124 abs_zz: 5
+ Start Cylinder (1):  (1210,0) (99,268442644)
+ Start Cylinder (2):  (1210,0) (99,268442644)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2889,5) (2890,5)
+ Destination Cylinder (2):  (2889,5) (2890,5)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268442644 Name: Van Hunter
+ RealX: 1158 RealY: 1124 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 26/10/2012 18:31:17 - Sky Rullesz (177.51.63.84) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Oct 26 18:30:14 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 170 131 131 131 131 131 131 131 131
+Last Packet: 109 135 004 100 004 005 001 134 004 100 004 005 000 000 000 000
+Player Position: [1153,1122,5]
+Player Name: Sky Rullesz (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 39261840), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 14 sy: 8 sz: 2
+ Position: 1
+ zx: 13 zy: 8 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 1159 abs_sy: 1124 abs_sz: 5
+ abs_zx: 1158 abs_zy: 1124 abs_zz: 5
+ Start Cylinder (1):  (1210,0) (99,268442644)
+ Start Cylinder (2):  (1210,0) (99,268442644)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2889,5) (2890,5)
+ Destination Cylinder (2):  (2889,5) (2890,5)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268442644 Name: Van Hunter
+ RealX: 1158 RealY: 1124 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 26/10/2012 18:31:22 - Minicu (187.107.187.74) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Oct 26 19:31:01 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 170 131 131 131 131 131 131 131 131
+Last Packet: 109 135 004 100 004 005 001 134 004 100 004 005 000 000 000 000
+Player Position: [1161,1123,5]
+Player Name: Minicu (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 151068416), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 6 sy: 7 sz: 2
+ Position: 1
+ zx: 5 zy: 7 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 1159 abs_sy: 1124 abs_sz: 5
+ abs_zx: 1158 abs_zy: 1124 abs_zz: 5
+ Start Cylinder (1):  (1210,0) (99,268442644)
+ Start Cylinder (2):  (1210,0) (99,268442644)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2889,5) (2890,5)
+ Destination Cylinder (2):  (2889,5) (2890,5)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268442644 Name: Van Hunter
+ RealX: 1158 RealY: 1124 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 26/10/2012 18:31:35 - Experience (177.158.177.244) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Oct 26 18:30:25 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 170 131 131 131 131 131 131 131 131
+Last Packet: 109 135 004 100 004 005 001 134 004 100 004 005 000 000 000 000
+Player Position: [1161,1125,5]
+Player Name: Experience (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 33494672), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 6 sy: 5 sz: 2
+ Position: 1
+ zx: 5 zy: 5 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 1159 abs_sy: 1124 abs_sz: 5
+ abs_zx: 1158 abs_zy: 1124 abs_zz: 5
+ Start Cylinder (1):  (1210,0) (99,268442644)
+ Start Cylinder (2):  (1210,0) (99,268442644)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2889,5) (2890,5)
+ Destination Cylinder (2):  (2889,5) (2890,5)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268442644 Name: Van Hunter
+ RealX: 1158 RealY: 1124 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 26/10/2012 18:49:00 - Supremo nerd (189.38.41.27) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 18:48:02 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 170 131 132 132 132 109 109 132 131
+Last Packet: 107 183 001 040 002 007 003 227 011 100 106 183 001 040 002 007
+Player Position: [439,554,7]
+Player Name: Supremo nerd (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 35919360), reason:
+Communication.cpp 1764: exception occurred (rx = 8) (ry = 4), reason:
+Communication.cpp 1741: assertion failed (rx = 8) (ry = 4), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 18:49:00 - Supreme Ruullesz (177.51.63.84) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 18:47:58 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 170 131 132 132 132 132 131 132 132
+Last Packet: 107 183 001 040 002 007 003 227 011 100 106 183 001 040 002 007
+Player Position: [432,550,7]
+Player Name: Sky Rullesz (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 37557904), reason:
+Communication.cpp 1764: exception occurred (rx = 15) (ry = 8), reason:
+Communication.cpp 1741: assertion failed (rx = 15) (ry = 8), reason:
+FieldRefreshRequested(rx,ry,rz)
+
+----- 26/10/2012 18:49:02 - Hitude (186.206.135.245) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 18:48:05 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 131 132 132 132 109 109 132 109 132
+Last Packet: 107 183 001 040 002 007 003 227 011 100 106 183 001 040 002 007
+Player Position: [441,547,7]
+Player Name: Hitude (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 34805248), reason:
+Communication.cpp 1764: exception occurred (rx = 6) (ry = 11), reason:
+Communication.cpp 1741: assertion failed (rx = 6) (ry = 11), reason:
+FieldRefreshRequested(rx,ry,rz)
+
+----- 26/10/2012 18:49:04 - Red sorc (189.25.190.107) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 18:49:13 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 170 131 132 132 132 109 109 132 180
+Last Packet: 107 183 001 040 002 007 003 227 011 100 106 183 001 040 002 007
+Player Position: [438,555,7]
+Player Name: Red sorc (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 24689808), reason:
+Communication.cpp 1764: exception occurred (rx = 9) (ry = 3), reason:
+Communication.cpp 1741: assertion failed (rx = 9) (ry = 3), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 18:49:18 - Doom Shamam (200.153.227.174) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 18:48:12 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 170 131 132 132 132 109 109 132 131
+Last Packet: 107 183 001 040 002 007 003 227 011 100 106 183 001 040 002 007
+Player Position: [439,552,7]
+Player Name: Doom Shamam (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 150092512), reason:
+Communication.cpp 1764: exception occurred (rx = 8) (ry = 6), reason:
+Communication.cpp 1741: assertion failed (rx = 8) (ry = 6), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 18:50:00 - Jujuba (187.23.18.227) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 18:48:46 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: OpenGL (1)
+Last Packet Types: 107 170 131 132 132 132 109 109 132 131
+Last Packet: 107 183 001 040 002 007 003 227 011 100 106 183 001 040 002 007
+Player Position: [439,553,7]
+Player Name: Jujuba (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 150291936), reason:
+Communication.cpp 1764: exception occurred (rx = 8) (ry = 5), reason:
+Communication.cpp 1741: assertion failed (rx = 8) (ry = 5), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 19:33:59 - Lindsay Lohan (186.206.135.245) -----
+Debug Assertion 8.40 Communication.cpp 1783
+Fri Oct 26 19:33:01 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 108 131 162 109 107 107 107 107 107 107
+Last Packet: 131 186 001 037 002 007 003 108 186 001 037 002 007 003 170 000
+Player Position: [442,549,7]
+Player Name: Lindsay Lohan (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 108) (MainWindow = 33755232), reason:
+Communication.cpp 1795: exception occurred (rx = 8) (ry = 6), reason:
+Communication.cpp 1783: assertion failed (rx = 8) (ry = 6), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 19:34:08 - Chuck Noris (189.38.41.27) -----
+Debug Assertion 8.40 Communication.cpp 1783
+Fri Oct 26 19:32:57 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 108 131 109 107 107 107 107 107 107 107
+Last Packet: 131 186 001 037 002 007 003 108 186 001 037 002 007 003 170 000
+Player Position: [439,550,7]
+Player Name: Chuck Noris (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 108) (MainWindow = 35919360), reason:
+Communication.cpp 1795: exception occurred (rx = 11) (ry = 5), reason:
+Communication.cpp 1783: assertion failed (rx = 11) (ry = 5), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 19:36:10 - Lindsay Lohan (186.206.135.245) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Oct 26 19:35:15 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 109 131 105 131 030 132 109 109 170
+Last Packet: 109 184 001 036 002 005 001 185 001 036 002 005 106 191 001 034
+Player Position: [439,548,5]
+Player Name: Lindsay Lohan (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 34346496), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 9 sy: 6 sz: 2
+ Position: 1
+ zx: 10 zy: 6 zz: 2
+ dx: 1 dy: 0 dz: 0
+ abs_sx: 440 abs_sy: 548 abs_sz: 5
+ abs_zx: 441 abs_zy: 548 abs_zz: 5
+ Start Cylinder (1):  (410,0)
+ Start Cylinder (2):  (410,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (410,0)
+ Destination Cylinder (2):  (410,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Comment: 
+----- 26/10/2012 19:41:11 - Dri Rullez (200.181.172.21) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Oct 26 19:40:15 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 131 180 132 131 140 140 170 160 160
+Last Packet: 132 135 004 100 004 005 005 009 000 065 097 097 097 097 104 046
+Player Position: [1158,1124,5]
+Player Name: Dri Rullez (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 284827272), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 2
+ Position: 1
+ zx: 7 zy: 6 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 1159 abs_sy: 1124 abs_sz: 5
+ abs_zx: 1158 abs_zy: 1124 abs_zz: 5
+ Start Cylinder (1):  (1210,0) (99,268444930)
+ Start Cylinder (2):  (1210,0) (99,268444930)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2889,5) (2889,5)
+ Destination Cylinder (2):  (2889,5) (2889,5)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268444930 Name: Dri Rullez
+ RealX: 1158 RealY: 1124 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 26/10/2012 19:44:50 - Dri Rullez (200.181.172.21) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Fri Oct 26 19:43:54 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 103 109 103 109 102 109 102 109 102 109
+Last Packet: 109 088 003 210 003 007 002 088 003 211 003 007 103 163 017 034
+Player Position: [856,979,7]
+Player Name: Dri Rullez (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 10FA1E88 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 0011004F)
+Comment: 
+----- 26/10/2012 19:53:02 - Chuck Noris (189.38.41.27) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 19:51:48 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 106 107 107 107 107 107 107 107 107
+Last Packet: 107 181 001 041 002 007 002 219 011 100 106 181 001 041 002 007
+Player Position: [439,552,7]
+Player Name: Chuck Noris (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 35788288), reason:
+Communication.cpp 1764: exception occurred (rx = 6) (ry = 7), reason:
+Communication.cpp 1741: assertion failed (rx = 6) (ry = 7), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 19:53:08 - Shandow fenix (201.13.37.14) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 19:51:51 2012
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 106 107 107 107 107 107 107 107 107
+Last Packet: 107 181 001 041 002 007 002 219 011 100 106 181 001 041 002 007
+Player Position: [440,552,7]
+Player Name: Shandow fenix (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 162350560), reason:
+Communication.cpp 1764: exception occurred (rx = 5) (ry = 7), reason:
+Communication.cpp 1741: assertion failed (rx = 5) (ry = 7), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 19:53:24 - Supreme Ruullesz (177.51.63.84) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 19:51:45 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 106 107 107 107 107 107 107 107 107
+Last Packet: 107 181 001 041 002 007 002 219 011 100 106 181 001 041 002 007
+Player Position: [438,553,7]
+Player Name: Supreme Ruullesz (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 36770920), reason:
+Communication.cpp 1764: exception occurred (rx = 7) (ry = 6), reason:
+Communication.cpp 1741: assertion failed (rx = 7) (ry = 6), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 19:53:29 - Chuck Noris (189.38.41.27) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 19:52:19 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 131 170 131 143 106 108 108 108 108
+Last Packet: 107 182 001 041 002 007 002 219 011 100 106 182 001 041 002 007
+Player Position: [439,552,7]
+Player Name: Chuck Noris (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 35788288), reason:
+Communication.cpp 1764: exception occurred (rx = 7) (ry = 7), reason:
+Communication.cpp 1741: assertion failed (rx = 7) (ry = 7), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 19:53:31 - Xing Xong (201.69.44.67) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 19:52:28 2012
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 107 106 108 108 108 108 108 108 108
+Last Packet: 107 182 001 041 002 007 002 219 011 100 106 182 001 041 002 007
+Player Position: [439,555,7]
+Player Name: Xing Xong (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 35002128), reason:
+Communication.cpp 1764: exception occurred (rx = 7) (ry = 4), reason:
+Communication.cpp 1741: assertion failed (rx = 7) (ry = 4), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 26/10/2012 19:53:37 - Experience (177.158.177.244) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Fri Oct 26 19:52:25 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 107 109 132 106 108 108 108 108 108 108
+Last Packet: 107 181 001 041 002 007 002 219 011 100 106 181 001 041 002 007
+Player Position: [439,550,7]
+Player Name: Experience (foxworldpvpe.servegame.com)
+Player Action: 049 056 055 046 050 051 046 049 056 046 050 050 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 32970384), reason:
+Communication.cpp 1764: exception occurred (rx = 6) (ry = 9), reason:
+Communication.cpp 1741: assertion failed (rx = 6) (ry = 9), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 02/11/2012 11:14:49 - [ADMIN]Carlos (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Nov 02 11:14:36 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 030 107 181 180 104 103 109 103
+Last Packet: 180 018 004 000 047 097 032 049 109 031 002 000 002 007 003 031
+Player Position: [543,513,7]
+Player Name: [ADMIN]Carlos (foxworldpvpe.servegame.com)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 30850104), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 0
+ Position: 3
+ zx: 8 zy: 7 zz: 0
+ dx: 0 dy: 1 dz: 0
+ abs_sx: 543 abs_sy: 512 abs_sz: 7
+ abs_zx: 543 abs_zy: 513 abs_zz: 7
+ Start Cylinder (1):  (4515,0) (1102,0) (1955,0) (99,268439852)
+ Start Cylinder (2):  (4515,0) (1102,0) (1955,0) (99,268439852)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1954,0)
+ Destination Cylinder (2):  (1954,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439852 Name: [ADMIN]Carlos
+ RealX: 543 RealY: 513 RealZ: 7
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 02/11/2012 11:15:06 - [ADMIN]Carlos (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Nov 02 11:14:52 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 107 102 109 102 109 181 180 162
+Last Packet: 180 018 004 000 047 097 032 049 109 033 002 000 002 007 001 033
+Player Position: [545,513,7]
+Player Name: [ADMIN]Carlos (foxworldpvpe.servegame.com)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 34215568), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 0
+ Position: 1
+ zx: 8 zy: 7 zz: 0
+ dx: 0 dy: 1 dz: 0
+ abs_sx: 545 abs_sy: 512 abs_sz: 7
+ abs_zx: 545 abs_zy: 513 abs_zz: 7
+ Start Cylinder (1):  (4515,0) (99,268439854)
+ Start Cylinder (2):  (4515,0) (99,268439854)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (4458,0)
+ Destination Cylinder (2):  (4458,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439854 Name: [ADMIN]Carlos
+ RealX: 545 RealY: 513 RealZ: 7
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 07/11/2012 19:31:35 - [ADMIN]Carlos (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Wed Nov 07 19:31:23 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 103 109 180 103 109 180 103 109
+Last Packet: 180 018 004 000 047 097 032 049 109 178 001 073 002 007 003 178
+Player Position: [434,586,7]
+Player Name: [ADMIN]Carlos (foxworldpvpe.servegame.com)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 9616488), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 0
+ Position: 3
+ zx: 8 zy: 7 zz: 0
+ dx: 0 dy: 1 dz: 0
+ abs_sx: 434 abs_sy: 585 abs_sz: 7
+ abs_zx: 434 abs_zy: 586 abs_zz: 7
+ Start Cylinder (1):  (870,0) (4539,0) (1283,0) (99,268439874)
+ Start Cylinder (2):  (870,0) (4539,0) (1283,0) (99,268439874)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1281,0)
+ Destination Cylinder (2):  (1281,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439874 Name: [ADMIN]Carlos
+ RealX: 434 RealY: 586 RealZ: 7
+ DeltaX: 0 DeltaY: -31
+Comment: 
+----- 14/11/2012 16:06:10 - [ADMIN] Nerd (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Wed Nov 14 16:05:33 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 101 109 180 101 109 180 101 109
+Last Packet: 180 018 004 000 047 097 032 049 109 015 002 254 001 007 001 015
+Player Position: [527,508,7]
+Player Name: [ADMIN] Nerd (foxworldpvpe.servegame.com)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 29458160), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 0
+ Position: 1
+ zx: 8 zy: 5 zz: 0
+ dx: 0 dy: -1 dz: 0
+ abs_sx: 527 abs_sy: 509 abs_sz: 7
+ abs_zx: 527 abs_zy: 508 abs_zz: 7
+ Start Cylinder (1):  (1128,0) (99,268440038)
+ Start Cylinder (2):  (1128,0) (99,268440038)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (4473,0)
+ Destination Cylinder (2):  (4473,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268440038 Name: [ADMIN] Nerd
+ RealX: 527 RealY: 508 RealZ: 7
+ DeltaX: 0 DeltaY: 32
+Comment: 
+----- 24/11/2012 16:04:13 - [ADMIN] Nerd (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Sat Nov 24 16:03:54 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 107 181 180 181 180 030 103 109
+Last Packet: 180 018 004 000 047 097 032 049 109 205 002 250 002 012 001 204
+Player Position: [716,762,12]
+Player Name: [ADMIN] Nerd (foxworldpvpe.servegame.com)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 3636976), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 2
+ Position: 1
+ zx: 7 zy: 6 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 717 abs_sy: 762 abs_sz: 12
+ abs_zx: 716 abs_zy: 762 abs_zz: 12
+ Start Cylinder (1):  (423,0) (99,268439592)
+ Start Cylinder (2):  (423,0) (99,268439592)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1963,0)
+ Destination Cylinder (2):  (1963,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439592 Name: [ADMIN] Nerd
+ RealX: 716 RealY: 762 RealZ: 12
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 04/12/2012 22:29:41 - GOD DarkFox (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Tue Dec 04 22:29:26 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 030 181 180 181 180 181 180 181
+Last Packet: 030 180 018 004 000 047 097 032 049 109 188 001 023 003 006 003
+Player Position: [445,791,6]
+Player Name: GOD DarkFox (FoxworldBlack)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 26050328), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 1
+ Position: 3
+ zx: 9 zy: 6 zz: 1
+ dx: 1 dy: 0 dz: 0
+ abs_sx: 444 abs_sy: 791 abs_sz: 6
+ abs_zx: 445 abs_zy: 791 abs_zz: 6
+ Start Cylinder (1):  (1019,0) (1101,0) (1951,0) (99,268439724)
+ Start Cylinder (2):  (1019,0) (1101,0) (1951,0) (99,268439724)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1950,0)
+ Destination Cylinder (2):  (1950,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439724 Name: GOD DarkFox
+ RealX: 445 RealY: 791 RealZ: 6
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 04/12/2012 22:38:56 - GOD DarkFox (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Tue Dec 04 22:30:35 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 101 109 180 101 109 180 101 109
+Last Packet: 180 018 004 000 047 097 032 049 109 202 001 225 002 006 001 202
+Player Position: [458,736,6]
+Player Name: GOD DarkFox (FoxworldBlack)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 32642704), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 1
+ Position: 1
+ zx: 8 zy: 5 zz: 1
+ dx: 0 dy: -1 dz: 0
+ abs_sx: 458 abs_sy: 737 abs_sz: 6
+ abs_zx: 458 abs_zy: 736 abs_zz: 6
+ Start Cylinder (1):  (1128,0) (99,268439725)
+ Start Cylinder (2):  (1128,0) (99,268439725)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1084,0) (4458,0)
+ Destination Cylinder (2):  (1084,0) (4458,0)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439725 Name: GOD DarkFox
+ RealX: 458 RealY: 736 RealZ: 6
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 06/12/2012 19:20:40 - GOD DarkFox (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Thu Dec 06 19:20:28 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 181 180 181 180 181 180 101 109
+Last Packet: 180 018 004 000 047 097 032 049 109 203 001 244 002 005 003 203
+Player Position: [459,755,5]
+Player Name: GOD DarkFox (FoxworldBlack)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 24805144), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 2
+ Position: 3
+ zx: 8 zy: 5 zz: 2
+ dx: 0 dy: -1 dz: 0
+ abs_sx: 459 abs_sy: 756 abs_sz: 5
+ abs_zx: 459 abs_zy: 755 abs_zz: 5
+ Start Cylinder (1):  (1019,0) (1100,0) (4449,0) (99,268439724)
+ Start Cylinder (2):  (1019,0) (1100,0) (4449,0) (99,268439724)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (7181,0)
+ Destination Cylinder (2):  (7181,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439724 Name: GOD DarkFox
+ RealX: 459 RealY: 755 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 19/12/2012 16:41:11 - Dani Bolina (127.0.0.1) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Wed Dec 19 16:38:12 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 108 107 109 170 131 131 143 133 133
+Last Packet: 170 000 000 000 000 014 000 084 104 101 111 114 032 077 101 116
+Player Position: [238,137,7]
+Player Name: Tuxtuxca (FoxWorld 2)
+Player Action: 050 048 048 046 057 056 046 050 048 049 046 049 051 050 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 36378256), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at A0A0A0A0)
+Comment: 
+----- 21/12/2012 09:18:04 - [GOD] Yin (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Dec 21 09:17:43 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 107 104 109 180 030 100 108 180
+Last Packet: 180 018 004 000 047 097 032 049 109 113 002 016 002 009 001 113
+Player Position: [625,527,9]
+Player Name: [GOD] Yin (FoxworldBlack)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 36902496), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 2
+ Position: 1
+ zx: 8 zy: 5 zz: 2
+ dx: 0 dy: -1 dz: 0
+ abs_sx: 625 abs_sy: 528 abs_sz: 9
+ abs_zx: 625 abs_zy: 527 abs_zz: 9
+ Start Cylinder (1):  (101,0) (99,268439788)
+ Start Cylinder (2):  (101,0) (99,268439788)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1306,0)
+ Destination Cylinder (2):  (1306,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439788 Name: [GOD] Yin
+ RealX: 625 RealY: 527 RealZ: 9
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 26/12/2012 12:26:29 - [GOD] Yin (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Wed Dec 26 12:25:33 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 030 030 100 108 103 109 030 101
+Last Packet: 180 018 011 000 047 097 032 109 105 110 105 122 117 114 111 109
+Player Position: [433,508,6]
+Player Name: [GOD] Yin (FoxLovezs)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 32800552), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 1
+ Position: 1
+ zx: 8 zy: 7 zz: 1
+ dx: 0 dy: 1 dz: 0
+ abs_sx: 433 abs_sy: 507 abs_sz: 6
+ abs_zx: 433 abs_zy: 508 abs_zz: 6
+ Start Cylinder (1):  (408,0) (99,268439949)
+ Start Cylinder (2):  (408,0) (99,268439949)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (440,0)
+ Destination Cylinder (2):  (440,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439949 Name: [GOD] Yin
+ RealX: 433 RealY: 508 RealZ: 6
+ DeltaX: 0 DeltaY: 0
+Comment: lucas
+----- 28/12/2012 12:54:22 - Jackie Chan (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Fri Dec 28 12:53:39 2012
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 132 132 132 132 132 132 132 132
+Last Packet: 180 018 002 000 047 097 109 156 002 250 001 006 001 155 002 250
+Player Position: [667,506,6]
+Player Name: Jackie Chan (FoxLovezs)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 36011816), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 1
+ Position: 1
+ zx: 7 zy: 6 zz: 1
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 668 abs_sy: 506 abs_sz: 6
+ abs_zx: 667 abs_zy: 506 abs_zz: 6
+ Start Cylinder (1):  (1963,0) (99,268439948)
+ Start Cylinder (2):  (1963,0) (99,268439948)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2192,0)
+ Destination Cylinder (2):  (2192,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268439948 Name: Jackie Chan
+ RealX: 667 RealY: 506 RealZ: 6
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 01/11/2013 11:06:01 - Escopiao (127.0.0.1) -----
+Debug Assertion 8.40 NWin32Exception.cpp 105
+Fri Nov 01 11:05:05 2013
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 100 020 000 000 000 000 000 000 000 000
+Last Packet: 020 025 000 053 010 066 101 109 032 086 105 110 100 111 032 097
+Player Name: Account Manager (FoxLovezs)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 1002: exception occurred, reason:
+Network.cpp 828: exception occurred ((force?1:0) = 0), reason:
+NWin32Exception.cpp 105: win32 exception occurred, reason:
+unknown (-1073741819)
+Comment: 
+----- 01/11/2013 12:59:37 - Ze ruela (127.0.0.1) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Fri Nov 01 12:59:16 2013
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 142 142 142 109 132 109 109 109 132
+Last Packet: 109 180 002 103 000 007 001 179 002 103 000 007 000 000 000 000
+Player Position: [698,101,5]
+Player Name: Ze ruela (FoxLovezs)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 887EF0 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at 41234166)
+Comment: 
+----- 01/11/2013 13:00:22 - Ze ruela (127.0.0.1) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Fri Nov 01 12:59:43 2013
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 132 030 109 109 109 109 132 142 142 142
+Last Packet: 030 132 186 002 101 000 005 204 007 000 096 032 032 046 032 032
+Player Position: [698,101,5]
+Player Name: Ze ruela (FoxLovezs)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 22F1690 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at FFFFFFE9)
+Comment: 
+----- 14/11/2013 19:43:17 - Jackie Chan (127.0.0.1) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Thu Nov 14 19:42:31 2013
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 180 132 132 132 132 132 132 132 132
+Last Packet: 180 018 002 000 047 097 109 145 001 031 002 006 001 144 001 031
+Player Position: [400,543,6]
+Player Name: Jackie Chan (FoxLovezs)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 30965488), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 1
+ Position: 1
+ zx: 7 zy: 6 zz: 1
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 401 abs_sy: 543 abs_sz: 6
+ abs_zx: 400 abs_zy: 543 abs_zz: 6
+ Start Cylinder (1):  (408,0) (99,268440028)
+ Start Cylinder (2):  (408,0) (99,268440028)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1281,0)
+ Destination Cylinder (2):  (1281,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268440028 Name: Jackie Chan
+ RealX: 400 RealY: 543 RealZ: 6
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 07/01/2014 13:23:38 - Arkeiiro (189.25.169.137) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Tue Jan 07 14:20:41 2014
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 107 107 107 107 131 030 109 131 109
+Last Packet: 107 186 001 040 002 007 000 154 001 107 185 001 039 002 007 000
+Player Position: [442,545,7]
+Player Name: Arkeiiro (FoxLovezs)
+Player Action: 049 056 055 046 057 053 046 050 051 053 046 050 053 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 35651216), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 2 sy: 0 sz: 4
+ Position: 1
+ zx: 3 zy: 0 zz: 4
+ dx: 1 dy: 0 dz: 0
+ abs_sx: 440 abs_sy: 543 abs_sz: 3
+ abs_zx: 441 abs_zy: 543 abs_zz: 3
+ Start Cylinder (1):  (1158,0)
+ Start Cylinder (2):  (1158,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1158,0)
+ Destination Cylinder (2):  (1158,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Comment: 
+----- 07/01/2014 14:11:00 - Yukina (200.219.152.246) -----
+Debug Assertion 8.40 Communication.cpp 1741
+Tue Jan 07 15:03:01 2014
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 107 107 107 107 107 107 107 107 109
+Last Packet: 107 055 002 205 001 004 002 074 011 005 107 052 002 203 001 004
+Player Position: [563,457,4]
+Player Name: Yukina (FoxLovezs)
+Player Action: 049 056 055 046 057 053 046 050 051 053 046 050 053 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 107) (MainWindow = 9616320), reason:
+Communication.cpp 1764: exception occurred (rx = 8) (ry = 11), reason:
+Communication.cpp 1741: assertion failed (rx = 8) (ry = 11), reason:
+FieldRefreshRequested(rx,ry,rz)
+Comment: 
+----- 07/01/2014 19:57:48 - Amor ao se assassino (189.73.80.145) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Tue Jan 07 20:56:27 2014
+Windows Version: 5.1 build 2600 on 2 with Service Pack 3
+Graphic Engine: DirectX5 (0)
+Last Packet Types: 109 160 160 140 170 160 131 162 143 180
+Last Packet: 109 196 002 032 003 012 001 197 002 032 003 012 000 000 000 000
+Player Position: [710,801,12]
+Player Name: Amor ao se assassino (FoxLovezs)
+Player Action: 049 056 055 046 057 053 046 050 051 053 046 049 049 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 150937344), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 6 sy: 5 sz: 2
+ Position: 1
+ zx: 7 zy: 5 zz: 2
+ dx: 1 dy: 0 dz: 0
+ abs_sx: 708 abs_sy: 800 abs_sz: 12
+ abs_zx: 709 abs_zy: 800 abs_zz: 12
+ Start Cylinder (1):  (415,0) (99,268440408)
+ Start Cylinder (2):  (415,0) (99,268440408)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1305,0)
+ Destination Cylinder (2):  (1305,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268440408 Name: [GOD] Yin
+ RealX: 709 RealY: 800 RealZ: 12
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 17/01/2014 09:26:25 - Makaveriz (191.219.24.7) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Fri Jan 17 09:25:21 2014
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 107 107 107 107 107 107 107 107 107 130
+Last Packet: 107 185 001 039 002 007 000 154 001 107 187 001 039 002 007 000
+Player Position: [439,554,7]
+Player Name: Makaveriz (Scorpion Server)
+Player Action: 049 056 055 046 057 053 046 050 051 053 046 050 052 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Player.cpp 464: exception occurred, reason:
+Control.cpp 1707: exception occurred (MessageType: 0 MaW: 19BBC08 MoW: 0), reason:
+Control.cpp 1702: exception occurred, reason:
+Control.cpp 376: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 137: exception occurred (Surface = 1), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at FFFFFFE9)
+Comment: 
+----- 17/01/2014 13:55:58 - Kyros Kim (186.233.52.36) -----
+Debug Assertion 8.40 NWin32Exception.cpp 50
+Fri Jan 17 13:55:19 2014
+Windows Version: 6.1 build 7600 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 131 131 132 101 109 101 109 162 180 131
+Last Packet: 132 081 002 057 002 007 005 009 000 065 097 097 097 097 104 046
+Player Position: [601,566,7]
+Player Name: Supreme Sorcerer (FoxWorld WAR)
+Player Action: 050 048 048 046 057 056 046 050 048 049 046 057 055 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 131) (MainWindow = 44373776), reason:
+NWin32Exception.cpp 50: win32 exception occurred, reason:
+access violation (read attempt at A0A0A0A0)
+Comment: 

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hell Lord Soldier" nameDescription="Hell Lord Soldier" race="undead" experience="25000" speed="500" manacost="0">
+  <health now="20000" max="20000"/>
+  <look type="12" head="76" body="94" legs="0" feet="94" corpse="6068"/>
+  <targetchange interval="10000" chance="15"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="1500" skill="50" attack="50" fire="70"/>
+    <attack name="ultimate explosion" interval="5000" chance="50" min="-500" max="-600"/>
+	<attack name="melee" interval="4000" chance="50" radius="5" target="0" min="-450" max="-600">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	<attack name="holy" interval="7000" chance="100" radius="5" target="0" min="-700" max="-800">
+		<attribute key="areaEffect" value="yellowenergy"/>
+	</attack>
+    <attack name="ice" interval="3000" chance="50" radius="5" min="-450" max="-500">
+    <attribute key="areaEffect" value="icetornado"/>
+    </attack>
+  </attacks>
+  <defenses armor="50" defense="50">
+    <defense name="speed" interval="15000" chance="50" speedchange="800" duration="5000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+
+  </defenses>
+<elements>
+		<element icePercent="-20"/>
+		<element holyPercent="-20"/>
+		<element deathPercent="-20"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity earth="1"/>
+    <immunity fire="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  	<summons maxSummons="4">
+		<summon name="demon" interval="5000" chance="20"/>
+		<summon name="massive fire elemental" interval="5000" chance="20"/>
+		<summon name="demon" interval="5000" chance="20"/>
+		<summon name="massive fire elemental" interval="5000" chance="20"/>
+	</summons>
+
+  <voices interval="5000" chance="30">
+    <voice sentence="I AM THE HELL LORD CRY FOR YOUR SOUL" yell="1"/>
+    <voice sentence="YOU CAN'T DEFEAT ME" yell="1"/>
+    <voice sentence="THE SKY AND ANGELS CRY WITH MY POWER" yell="1"/>
+  </voices>
+
+<loot>
+	<item id="6300" chance="50000" /> -- death ring
+	<item id="2004" chance="100000" > -- bag
+		<inside>
+	<item id="2494" chance="14000" /> -- demon armor
+	<item id="2495" chance="10000" /> -- demon legs
+		</inside>
+	</item>
+</loot>
+
+</monster>

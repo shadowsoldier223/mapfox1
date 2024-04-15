@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hell Lord" nameDescription="Hell Lord" race="undead" experience="500000" speed="800" manacost="0">
+  <health now="150000" max="150000"/>
+  <look type="12" head="76" body="94" legs="0" feet="94" corpse="6068"/>
+  <targetchange interval="10000" chance="15"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="1500" skill="100" attack="60" fire="60"/>
+    <attack name="ultimate explosion" interval="5000" chance="70" min="-100" max="-1000"/>
+	<attack name="melee" interval="3000" chance="70" radius="8" target="0" min="-10" max="-1500">
+		<attribute key="areaEffect" value="yellowenergy"/>
+	</attack>
+    <attack name="firefield" interval="2500" chance="100" range="7" radius="5" target="1">
+    <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="fire" interval="12000" chance="70" length="7" spread="7" min="-10" max="-1500">
+	<attribute key="areaEffect" value="firearea"/>
+	</attack>
+    <attack name="fire" interval="4000" chance="100" radius="6" min="-10" max="-2000">
+    <attribute key="areaEffect" value="fireattack"/>
+    </attack>
+  </attacks>
+  <defenses armor="70" defense="65">
+    <defense name="healing" interval="5000" chance="100" min="10" max="500">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="10000" chance="50" speedchange="250" duration="10000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+
+  </defenses>
+<elements>
+		<element icePercent="15"/>
+		<element holyPercent="-10"/>
+		<element deathPercent="20"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity earth="0"/>
+    <immunity fire="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  	<summons maxSummons="5">
+		<summon name="demon" interval="1000" chance="100"/>
+		<summon name="massive fire elemental" interval="1000" chance="100"/>
+	</summons>
+
+  <voices interval="5000" chance="30">
+    <voice sentence="I AM THE HELL LORD! CRY FOR YOUR SOUL!" yell="1"/>
+    <voice sentence="YOU CAN'T DEFEAT ME!" yell="1"/>
+    <voice sentence="THE SKY AND THE ANGELS CRY SEEING MY POWER!" yell="1"/>
+  </voices>
+
+<loot>
+	<item id="5741" chance="50000" /> -- Skull Helmet
+	<item id="6300" chance="100000" /> -- death ring
+	<item id="6391" chance="100000" /> -- nightmare shield
+	<item id="2004" chance="100000" > -- bag
+		<inside>
+	<item id="2741" chance="100000" /> -- golden helmet
+	<item id="2495" chance="7000" /> -- demon legs
+		</inside>
+	</item>
+</loot>
+
+</monster>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Metal Demon" nameDescription="Metal Demon" race="undead" experience="50000" speed="1200" manacost="0">
+  <health now="40000" max="40000"/>
+  <look type="12" head="19" body="76" legs="79" feet="94" corpse="6068"/>
+  <targetchange interval="10000" chance="15"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="1000"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="1000" skill="80" attack="70" fire="10"/>
+    <instant name="divine caldera" interval="7000" chance="50" min="-200" max="-300"/>
+	<attack name="melee" interval="3000" chance="70" radius="3" target="0" min="-10" max="-200">
+		<attribute key="areaEffect" value="yellowenergy"/>
+	</attack>
+    <attack name="firefield" interval="2500" chance="60" range="7" radius="3" target="1">
+    <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="fire" interval="12000" chance="70" length="2" spread="2" min="-100" max="-500">
+	<attribute key="areaEffect" value="firearea"/>
+	</attack>
+    <attack name="fire" interval="4000" chance="80" radius="3" min="-20" max="-500">
+    <attribute key="areaEffect" value="purpleenergy"/>
+    </attack>
+  </attacks>
+  <defenses armor="200" defense="200">
+    <defense name="healing" interval="5000" chance="50" min="2000" max="5000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="15000" chance="80" speedchange="800" duration="2000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+
+  </defenses>
+<elements>
+		<element icePercent="15"/>
+		<element holyPercent="-10"/>
+		<element deathPercent="20"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity earth="0"/>
+    <immunity fire="0"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <voices interval="5000" chance="30">
+    <voice sentence="You'll cry with my Blades!" yell="1"/>
+  </voices>
+
+<loot>
+	<item id="6300" chance="7000" /> -- death ring
+	<item id="8926" chance="7000" /> -- demonwing axe
+	<item id="2004" chance="35000" > -- bag
+		<inside>
+	<item id="2494" chance="7000" /> -- demon armor
+	<item id="2495" chance="7000" /> -- demon legs
+		</inside>
+	</item>
+</loot>
+
+</monster>

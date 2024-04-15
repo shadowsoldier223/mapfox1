@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="banshiria" nameDescription="a banshiria" race="undead" experience="80000" speed="700" manacost="0">
+  <health now="50000" max="50000"/>
+  <look type="235" head="20" corpse="6348"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-500" max="-1200"/>
+    <attack name="poison" interval="3000" chance="35" radius="5" min="-500" max="-1200">
+      <attribute key="areaEffect" value="purplenote"/>
+    </attack>
+    <attack name="poison" interval="8000" chance="100" radius="4" min="-700" max="-1000">
+      <attribute key="areaEffect" value="whitenote"/>
+    </attack>
+    <attack name="poisonfield" interval="1000" chance="17" range="7" radius="3" target="1">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+    <attack name="manadrain" interval="3000" chance="25" range="7" min="-500" max="-900">
+      <attribute key="areaEffect" value="redshimmer"/>
+  </attack>
+  </attacks>
+  <defenses armor="25" defense="20">
+    <defense name="healing" interval="1000" chance="50" min="75" max="125">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+	<element earthPercent="100"/>
+	<element deathPercent="100"/>
+	<element physicalPercent="10"/>
+	<element icePercent="55"/>
+	<element firePercent="-23"/>
+	<element energyPercent="-20"/>
+  </elements>
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="3">
+    <summon name="spectre" interval="4000" chance="45" />
+  </summons>
+<loot>
+<item id="2148" chance="100000" countmax="100"/> -- gold coin
+<item id="2148" chance="100000" countmax="100"/> -- gold coin
+<item id="2148" chance="100000" countmax="100"/> -- gold coin
+<item id="2152" chance="33333" countmax="3"/> -- platinum coin
+<item id="2260" chance="6667"/> -- blank rune
+<item id="2260" chance="3333"/> -- blank rune
+<item id="5909" chance="2222" countmax="1"/> -- white piece of cloth
+<item id="2134" chance="2857"/> -- silver brooch
+<item id="2642" chance="5000"/> -- sandals
+<item id="2071" chance="1818"/> -- lyre
+<item id="1987" chance="100000"> -- bag
+<inside>
+	<item id="2189" chance="1333"/> -- wand of cosmic energy
+	<item id="6500" chance="2857" countmax="1"/> -- demonic essence
+	<item id="5944" chance="1429" countmax="1"/> -- soul orb
+	<item id="6300" chance="1000"/> -- death ring
+	<item id="2136" chance="909"/> -- demonbone amulet
+</inside>
+</item>
+</loot>
+</monster>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="frozen Dragon" nameDescription="a frozen dragon" race="undead" experience="8500" speed="400" manacost="390">
+	<health now="10000" max="10000"/>
+	<look type="248" head="0" body="0" legs="0" feet="0" corpse="7091"/>
+	<targetchange interval="2000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="300"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="100"/>
+		<attack name="lifedrain" interval="4000" chance="50" length="2" spread="1" min="-300" max="-500">
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="11" length="2" spread="3" speedchange="400">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="18" target="1" radius="4" min="-350" max="-500">
+			<attribute key="areaEffect" value="icearea"/>
+			<attribute key="shootEffect" value="smallice"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="22" radius="4" target="0" min="-400" max="-500">
+			<attribute key="areaEffect" value="icetornado"/>
+		</attack>
+		<attack name="speed" interval="1000" chance="11" radius="3" target="0" speedchange="-200">
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+	</attacks>
+  <defenses armor="45" defense="45">
+    <defense name="healing" interval="1000" chance="10" min="50" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="15"/>
+	</elements>
+	<immunities>
+		<immunity ice="1"/>
+		<immunity earth="0"/>
+		<immunity paralyze="1"/>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="3000" chance="200">
+		<voice sentence="CHHHRRRR"/>
+		<voice sentence="CHILLS ARE YOU HAVING?"/>
+		<voice sentence="IT'S FREEZING ? HA-HA-HA-HA-HAA !"/>
+	</voices>
+  <loot>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2672" countmax="5" chance1="20000" chancemax="0"/>
+    <item id="2498" chance="12000"/> -- royal helmet
+    <item id="2361" chance="3000"/> 
+    <item id="2396" chance="5000"/> -- ice rapier
+    <item id="2466" chance="13000"/> -- golden armor
+	<item id="7290" chance="1400"/>
+    <item id="7378" countmax="2" chance1="2000" chancemax="0"/>
+    <item id="2546" countmax="5" chance1="2500" chancemax="0"/>
+    <item id="2492" chance="13000"/> -- dsm
+    <item id="2796" countmax="1" chance1="6666" chancemax="0"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+        <item id="2146" countmax="2" chance1="2222" chancemax="0"/>
+        <item id="2528" chance="1333"/>
+		<item id="7441" chance="2222"/>
+        <item id="7402" chance="1666"/>
+		<item id="2498" chance="1300"/>
+		<item id="2492" chance="1300"/>
+      </inside>
+    </item>
+  </loot>
+ </monster>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Darkness" nameDescription="The Darkness" race="undead" experience="50000" speed="800" manacost="0">
+  <health now="230000" max="230000"/>
+  <look type="12" head="76" body="0" legs="76" feet="94" corpse="5995"/>
+    <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="1"/>
+    <flag lightcolor="1"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="1000"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="150" attack="150"/>
+    <attack name="rage of the skies" interval="4000" chance="30" min="-750" max="-1000"/>
+    <attack name="zesshou san" interval="5000" chance="30" min="-1" max="-1200"/>
+    <attack name="orshabaal berserk" interval="4000" chance="30" min="-1" max="-1200"/>
+    <attack name="ultimate explosion" interval="2000" chance="20" min="-1" max="-1200"/>
+    <attack name="fierce berserk" interval="2000" chance="50" min="-500" max="-1000"/>
+    <attack name="speed" interval="4000" chance="30" radius="3" speedchange="-500" duration="20000">
+      <attribute key="areaEffect" value="whitenote"/>
+    </attack>
+    <attack name="physical" interval="5000" chance="30" range="7" min="-700" max="-700">
+      <attribute key="shootEffect" value="largerock"/>
+    </attack>
+      <attack name="melee" interval="5000" chance="30" radius="4" min="-500" max="-1000">
+      <attribute key="areaEffect" value="blackspark"/>
+</attack>
+  </attacks>
+  <defenses armor="50" defense="50">
+  </defenses>
+  <immunities>
+    <immunity ice="0"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="Are you afraid of the Dark?"/>
+    <voice sentence="I will destroy all the Light in this cursed World!"/>
+    <voice sentence="I am the Lord of all Night Creatures!"/>
+  </voices>
+  <summons maxSummons="1">
+    <summon name="Demon" interval="500" chance="100"/>
+  </summons>
+  <loot>
+    <item id="2160" countmax="57" chance="75000"/> --Crystal Coin
+    <item id="1987" chance="100000"> --Bag
+    <item id="2390" chance="15000"/> --Magic LongSword
+    <item id="9933" chance="15000"/> --Firewalker Boots
+      <inside>
+    <item id="2646" chance="15000"/> --Golden Boots
+    <item id="7438" chance="15000"/> -- golden bow
+    <item id="2197" chance="15000"/> --Stone Skin Amulet
+          <item id="2160" countmax="87" chance="57000"/> --Crystal Coin
+       </inside>
+     </item>
+  </loot>
+</monster>

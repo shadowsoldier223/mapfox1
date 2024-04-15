@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gem Seller" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="78" body="127" legs="70" feet="38" addons="1"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Se interessou ? Eu vendo gemas: Elder Druid = Verde, Royal Paladin = Blue, Elite Knight = Amarela, Master Sorcerer = Vermelha. Diga {trade}."/>
+		<parameter key="shop_buyable" value="knight gem,2154,1000000;druid gem,2155,1000000;sorcerer gem,2156,1000000;blue gem,2158,1000000"/>
+	</parameters>
+</npc>

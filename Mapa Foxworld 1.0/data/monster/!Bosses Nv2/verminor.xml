@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Verminor" nameDescription="Verminor" race="undead" experience="1500000" speed="700" manacost="0">
+  <health now="1750000" max="1750000"/>
+  <look type="12" head="122" body="120" legs="81" feet="95" corpse="5995"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="65" defense="5"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="250" attack="300"/>
+    <attack name="earth" interval="5000" chance="30" radius="9" target="0" min="-600" max="-3500">
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="speed" interval="1000" chance="40" radius="6" target="0" speedchange="-700" duration="60000">
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="strength" interval="1000" chance="10" radius="4" target="0" min="-600" max="-3000">
+      <attribute key="areaEffect" value="bigplants"/>
+    </attack>
+    <attack name="earth" interval="3000" chance="20" range="7" radius="7" target="1" min="-300" max="-1500">
+      <attribute key="shootEffect" value="earth"/>
+      <attribute key="areaEffect" value="smallplants"/>
+    </attack>
+    <attack name="manadrain" interval="3000" chance="15" radius="10" target="0" min="-600" max="-1500">
+      <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+    <attack name="earth" interval="2000" chance="9" length="8" spread="0" min="-400" max="-1500">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="poisoncondition" interval="5000" chance="30" length="0" spread="0" min="-700" max="-700">
+      <attribute key="areaEffect" value="greenspark"/>
+    </attack>
+    <attack name="lifedrain" interval="2000" chance="6" radius="14" target="0" min="-600" max="-1200">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </attack>
+  </attacks>
+  <defenses armor="150" defense="100">
+    <defense name="healing" interval="10000" chance="10" min="1000" max="3000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="10000" chance="100" speedchange="200" duration="5000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="BOW TO THE POWER OF THE RUTHLESS SEVEN!" yell="1"/>
+    <voice sentence="POISON IS MY PLAGUE!" yell="1"/>
+    <voice sentence="I'M THE RUTHLESS WITH SNAKE MOUTH!" yell="1"/>
+    <voice sentence="MY POISON YOU MAKE YOU DIE!" yell="1"/>
+  </voices>
+	<loot>
+		<item id="8904" chance="8000" /> -- spellscroll of prophecies
+		<item id="8918" chance="6500"/> --spellbook of dark mysteries
+		<item id="2165" chance="20000"/> --stealth ring
+		<item id="2470" chance="50000"/> --golden legs
+		<item id="2446" chance="50000"/> --golden boots
+		<item id="2155" chance="28000" /> -- green gem
+		<item id="6500" countmax="5" chance1="35000"/> --demonic essence
+		<item id="2112" chance="8000"/> -- Teddy bear
+		<item id="8698" chance="50000"/> -- Golden Trophy
+		<item id="1987" chance="100000" > -- bag
+			<inside>
+				<item id="7431" chance="5000" /> -- demonbone
+				<item id="7405" chance="4700"/> --havoc blade
+				<item id="2447" chance="3000"/> --twin axe
+				<item id="2421" chance="7509" /> -- thunder hammer
+				<item id="2514" chance="25000" /> -- mastermind shield
+				<item id="2143" countmax="15" chance1="13000"/> -- white pearls
+				<item id="2150" countmax="10" chance1="13000"/> --small amethyst
+				<item id="8878" chance="3500"/> -- crystalline armor
+				<item id="7433" chance="5000"/> -- Ravenwing
+				<item id="8884" chance="9000" /> -- oceanborn leviathan armor
+			</inside>
+		</item>
+	</loot>
+</monster>
