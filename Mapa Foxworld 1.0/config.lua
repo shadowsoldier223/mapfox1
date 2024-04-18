@@ -8,7 +8,7 @@
 	newPlayerSpawnPosY = 548
 	newPlayerSpawnPosZ = 7
 	newPlayerTownId = 1
-	newPlayerLevel = 80
+	newPlayerLevel = 400
 	newPlayerMagicLevel = 10
 	generateAccountNumber = "no"
 
@@ -27,7 +27,7 @@
 	-- NOTE: loginProtectionPeriod is the famous Tibia anti-magebomb system.
 	worldType = "pvp"
 	hotkeyAimbotEnabled = "yes"
-	protectionLevel = 80
+	protectionLevel = 100
 	pvpTileIgnoreLevelAndVocationProtection = "yes"
 	killsToRedSkull = 4
 	pzLocked = 10000
@@ -48,7 +48,7 @@
 
 	-- Connection config
 	worldId = 0
-	ip = "192.168.0.6"
+	ip = "192.168.15.12"
 	port = 7171
 	loginTries = 10
 	retryTimeout = 5 * 1000

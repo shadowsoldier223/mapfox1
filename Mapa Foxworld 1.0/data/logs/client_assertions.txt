@@ -1842,3 +1842,61 @@ Control.cpp 1319: exception occurred (Type = 131) (MainWindow = 44373776), reaso
 NWin32Exception.cpp 50: win32 exception occurred, reason:
 access violation (read attempt at A0A0A0A0)
 Comment: 
+----- 18/04/2024 03:18:37 - Andre (192.168.15.12) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Thu Apr 18 03:18:17 2024
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 180 162 131 160 160 132 161 133 132
+Last Packet: 109 252 001 047 002 005 001 252 001 048 002 005 107 252 001 048
+Player Position: [510,560,5]
+Player Name: Andre (Scorpion Server)
+Player Action: 049 057 050 046 049 054 056 046 049 053 046 049 050 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 46865488), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 6 sy: 5 sz: 2
+ Position: 1
+ zx: 6 zy: 6 zz: 2
+ dx: 0 dy: 1 dz: 0
+ abs_sx: 508 abs_sy: 559 abs_sz: 5
+ abs_zx: 508 abs_zy: 560 abs_zz: 5
+ Start Cylinder (1):  (1152,0) (99,1073746826)
+ Start Cylinder (2):  (1152,0) (99,1073746826)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2889,5) (2890,5)
+ Destination Cylinder (2):  (2889,5) (2890,5)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 1073746826 Name: Zabolick
+ RealX: 508 RealY: 560 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 
+----- 18/04/2024 03:20:00 - Andre (192.168.15.12) -----
+Debug Assertion 8.40 Communication.cpp 2054
+Thu Apr 18 03:19:44 2024
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: DirectX9 (2)
+Last Packet Types: 109 131 180 131 180 131 180 108 106 108
+Last Packet: 109 253 001 046 002 005 002 252 001 046 002 005 107 252 001 046
+Player Position: [508,561,5]
+Player Name: Andre (Scorpion Server)
+Player Action: 049 057 050 046 049 054 056 046 049 053 046 049 050 058 055 049 055 049
+Player.cpp 360: exception occurred, reason:
+Network.cpp 990: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1319: exception occurred (Type = 109) (MainWindow = 45489232), reason:
+Communication.cpp 2070: exception occurred, reason:
+Communication.cpp 2054: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 9 sy: 3 sz: 2
+ Position: 2
+ zx: 8 zy: 3 zz: 2
+ dx: -1 dy: 0 dz: 0
+ abs_sx: 509 abs_sy: 558 abs_sz: 5
+ abs_zx: 508 abs_zy: 558 abs_zz: 5
+ Start Cylinder (1):  (1152,0) (2888,1) (99,1073746882)
+ Start Cylinder (2):  (1152,0) (2888,1) (99,1073746882)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (2886,1) (2888,1)
+ Destination Cylinder (2):  (2886,1) (2888,1)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 1073746882 Name: Zabolick
+ RealX: 508 RealY: 558 RealZ: 5
+ DeltaX: 0 DeltaY: 0
+Comment: 

@@ -333,6 +333,9 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
+<instant name="gmspeed" words="fast" lvl="1" mana="0" prem="0" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" script="support/gmspeed.lua">
+</instant>
+
 	<instant name="Challenge" words="exeta res" lvl="20" mana="30" prem="0" aggressive="0" exhaustion="700" needlearn="0" script="support/challenge.lua">
                 <vocation name="Elite Knight" />
 	</instant>
@@ -650,6 +653,7 @@
 	<instant name="orshabaal berserk" words="orshabaal berserk" enabled="0" script="monsters/orshabaal berserk.lua"></instant>
                <instant name="orshabaal_deathstar" words="orshabaal_deathstar" enabled="0" script="monsters/orshabaal_deathstar.lua"></instant>
 	<instant name="hells core" words="hells core" direction="0" enabled="0" script="monsters/hells core.lua"></instant>
+	<instant name="extreme paralyze" words="extreme paralyze" direction="0" enabled="0" script="monsters\extremeparalyze.lua"></instant>
 	<instant name="eternal winter" words="eternal winter" direction="0" enabled="0" script="monsters/eternal winter.lua"></instant>
 	<instant name="ultimate explosion" words="ultimate explosion" direction="0" enabled="0" script="monsters/ultimate explosion.lua"></instant>
 	<instant name="rage of the skies" words="rage of the skies" direction="0" enabled="0" script="attack/rage of the skies.lua"></instant>

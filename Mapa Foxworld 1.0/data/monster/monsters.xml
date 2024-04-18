@@ -50,6 +50,7 @@
 	<monster name="Apocalypse" file="!Bosses Nv2/apocalypse.xml"/>
 	<monster name="Infernatil" file="!Bosses Nv2/Infernatil.xml"/>
 	<monster name="Diablo" file="!Bosses Nv2/Diablo.xml"/>
+	<monster name="zabolick" file="!Bosses Nv2/zabolick.xml"/>
 
 	<!--8.4-->
                <monster name="Acid Blob" file="8.4/acid blob.xml"/>

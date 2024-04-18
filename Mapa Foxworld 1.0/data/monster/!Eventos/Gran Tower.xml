@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Gran Tower" nameDescription="Gran Tower" race="undead" experience="50000" speed="0" manacost="0">
-  <health now="1500000" max="1500000"/>
+<monster name="Gran Tower" nameDescription="Gran Tower" race="undead" experience="0" speed="0" manacost="0">
+  <health now="1500" max="1500"/>
   <look typeex="7823" head="20" body="30" legs="40" feet="50" corpse="0"/>
   <targetchange interval="5000" chance="10"/>
   <strategy attack="100" defense="0"/>

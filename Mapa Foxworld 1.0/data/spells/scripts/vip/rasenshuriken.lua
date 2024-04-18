@@ -1,9 +1,9 @@
 local config = {
-  manapercent = 0.60,
-  seconds = 10,
+  manapercent = 0.50,
+  seconds = 3,
   storage = 10,
-  semMana = "Você não tem mana suficiente.",
-  msg = "Você precisa aguardar %d segundos para usar essa magia novamente.",
+  semMana = "Vocï¿½ nï¿½o tem mana suficiente.",
+  msg = "Vocï¿½ precisa aguardar %d segundos para usar essa magia novamente.",
 }
 
 local function useAgain(cid)
@@ -23,12 +23,12 @@ local combat2 = createCombatObject()
 
 local combat3 = createCombatObject()
   setCombatParam(combat3, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-  setCombatParam(combat3, COMBAT_PARAM_EFFECT, 42)
+  setCombatParam(combat3, COMBAT_PARAM_EFFECT, 37)
   setCombatFormula(combat3, COMBAT_FORMULA_LEVELMAGIC , -4.5, -32, -5.5, -300)
 
 local combat4 = createCombatObject()
   setCombatParam(combat4, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-  setCombatParam(combat4, COMBAT_PARAM_EFFECT, 42)
+  setCombatParam(combat4, COMBAT_PARAM_EFFECT, 37)
   setCombatFormula(combat4, COMBAT_FORMULA_LEVELMAGIC , -4.5, -32, -5.5, -300)
 
 local combat10 = createCombatObject()
@@ -57,15 +57,15 @@ arr1 = {
 
 arr2 = {
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
-  {0, 0, 1, 1, 1, 2, 1, 1, 1, 0, 0},
+  {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+  {0, 1, 1, 1, 1, 2, 1, 1, 1, 1, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
-  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 }
 
@@ -84,17 +84,17 @@ arr3 = {
 }
 
 arr4 = {
-  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-  {0, 1, 0, 0, 0, 2, 0, 0, 0, 1, 0},
+  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  {1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1},
+  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
-  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 }
 
 arr10 = {
@@ -113,15 +113,15 @@ arr10 = {
 
 arr20 = {
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
-  {0, 0, 1, 1, 1, 2, 1, 1, 1, 0, 0},
+  {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+  {0, 1, 1, 1, 1, 2, 1, 1, 1, 1, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
-  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 }
 

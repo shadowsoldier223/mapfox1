@@ -25,7 +25,7 @@
 	<talkaction log="yes" words="/town" access="5" script="teleporttown.lua"/>
 	<talkaction log="yes" words="/save" access="5" script="save.lua"/>
 	<talkaction log="yes" words="/clean" access="5" script="clean.lua"/>
-	<talkaction log="yes" words="/information" access="5" script="playerinfo.lua"/>
+	<talkaction log="yes" words="/infrmation" access="5" script="playerinfo.lua"/>
 	<talkaction log="yes" words="/gethouse" access="5" script="gethouse.lua"/>
 	<talkaction log="yes" words="/reload" access="5" script="reload.lua"/>
 	<talkaction log="yes" words="/newtype" access="5" script="newtype.lua"/>
@@ -40,7 +40,6 @@
 	<talkaction log="yes" words="/ferumbrasr" access="5" script="ferumbrasr.lua"/>
 	<talkaction log="yes" words="/darkrodos" access="5" script="darkrodos.lua"/>
 	<talkaction log="yes" words="/owner" access="5" script="owner.lua"/>
-
 	<!-- Community Managers -->
 	<talkaction log="yes" words="/npc" access="4" script="npc.lua"/>
 	<talkaction log="yes" words="/cliport" access="4" function="clickTeleport"/>

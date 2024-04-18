@@ -1,5 +1,7 @@
 local function Teleport(cid)
 
+doSendAnimatedText(getPlayerPosition(cid), "Aaaaah...", TEXTCOLOR_BLUE)
+
 local templo = {x=442, y=549, z=7}
 
 for j = 0, 60 do
@@ -111,27 +113,27 @@ return TRUE
 end  
 
 function onKill(cid, target, lastHit)
-    local monstros = {"Zabolick", "zabolick", ""}
 
-    if getCreatureTarget(cid) ~= 0 then
+local monstros ={"Zabolick","zabolick"}
+
+   if getCreatureTarget(cid) ~= 0 then
         if isMonster(target) == TRUE then
-            for i = 1, 2 do
-                local nome = getCreatureName(getCreatureTarget(cid))
-                if nome == monstros[i] then
-                    if getPlayerStorageValue(cid, 10007) ~= 1 then
-                        setPlayerStorageValue(cid, 10005, 1)
-                        setPlayerStorageValue(cid, 10002, 1)
-                        setPlayerStorageValue(cid, 10007, 1)
-                        setPlayerStorageValue(cid, 10001, 1)
-                        doSendMagicEffect(getCreaturePosition(cid), 65)
-                        broadcastMessage("O jogador " .. getPlayerName(cid) .. " absorveu a special skill Extreme Paralyze ao desferir o ultimo golpe no BOSS " .. nome .. "", MESSAGE_STATUS_WARNING)
-                        doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Voce absorveu a special skill Extreme Paralyze x3.")
-                    end
-                    addEvent(Teleport, 1000, cid)
-                end
-            end
+           for i = 1, 2 do
+                  nome = getCreatureName(getCreatureTarget(cid))
+                  if (nome == monstros[i]) then
+                       if getPlayerStorageValue(cid, 10007) ~= 1 then
+                             setPlayerStorageValue(cid,10005,1)
+                             setPlayerStorageValue(cid,10002,1)
+                             setPlayerStorageValue(cid,10007,1)
+                             setPlayerStorageValue(cid,10001,1)
+                             doSendMagicEffect(getCreaturePosition(cid), 47)
+                             broadcastMessage("O player ".. getPlayerName(cid) .." derrotou o Boss ".. nome ..", e por isso recebeu Aura Full!", MESSAGE_EVENT_ADVANCE)
+                       end
+                  addEvent(Teleport, 1000, cid)
+                  end
+           end                                
         end
-    end
+   end
 
-    return TRUE
+	return TRUE
 end
