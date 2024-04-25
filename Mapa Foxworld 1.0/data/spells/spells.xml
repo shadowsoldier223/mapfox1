@@ -397,7 +397,7 @@
 	</instant>
 
 	<!-- Storage Spells-->
-	<instant name="Extreme Paralyze" words="extreme paralyze" lvl="200" aggressive="1" needlearn="0" mana="0" exhaustion="1000" script="vip/extreme paralyze.lua">
+	<instant name="Extreme Paralyze" words="extreme paralyze" lvl="200" aggressive="1" needlearn="0" mana="0" exhaustion="0" script="vip/extreme paralyze.lua">
 	</instant>
 
 	<!-- Summon Spells -->
