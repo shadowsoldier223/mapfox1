@@ -147,11 +147,11 @@
 
 	-- Rates
 	-- NOTE: experienceStages configuration is located in data/XML/stages.xml.
-	rateExperience = 500
-	rateSkill = 300
-	rateMagic = 100
-	rateLoot = 5
-	rateSpawn = 5
+	rateExperience = 200
+	rateSkill = 20
+	rateMagic = 15
+	rateLoot = 1
+	rateSpawn = 1
 	experienceStages = "no"
 
 	-- Party

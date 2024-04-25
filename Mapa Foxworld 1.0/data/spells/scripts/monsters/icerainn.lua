@@ -2,17 +2,16 @@ local config = {
 effectz = 43, --- efeito ao hitar o chao
 field = false, --- criar fields (true/false)
 fieldid = 1492, -- id do field que sera criado
-chancehit = 60, --- chance de acertar uma area
+chancehit = 30, --- chance de acertar uma area
 chanceid = 0, --- chance de criar um field ao acertar a area
 effectx = 36, --- efeito de distancia
-waves = 2 -- quantidade de ondas de meteoros que irao cair
+waves = 1 -- quantidade de ondas de meteoros que irao cair
 }
 
 local water = {490, 491, 492, 493, 4608, 4609, 4610, 4611, 4612, 4613, 4614, 4615, 4616, 4617, 4618, 4619, 4620, 4621, 4622, 4623, 4624, 4625}
 local combat = createCombatObject()
 local meteor = createCombatObject()
-setCombatParam(meteor, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(meteor, COMBAT_PARAM_USECHARGES, TRUE)
+setCombatParam(meteor, COMBAT_PARAM_TYPE, COMBAT_ICEDAMAGE)
 setCombatParam(meteor, COMBAT_PARAM_EFFECT, config.effectz)
 setCombatFormula(meteor, COMBAT_FORMULA_LEVELMAGIC, -30, -50, -40, -55)
 
@@ -20,9 +19,8 @@ local meteor_fire = createCombatObject()
 setCombatParam(meteor_fire, COMBAT_PARAM_CREATEITEM, config.fieldid)
 
 local meteor_water = createCombatObject()
-setCombatParam(meteor_water, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(meteor_water, COMBAT_PARAM_USECHARGES, TRUE)
-setCombatParam(meteor_water, COMBAT_PARAM_EFFECT, 52)
+setCombatParam(meteor_water, COMBAT_PARAM_TYPE, COMBAT_ICEDAMAGE)
+setCombatParam(meteor_water, COMBAT_PARAM_EFFECT, 43)
 setCombatFormula(meteor, COMBAT_FORMULA_LEVELMAGIC, -30, -50, -40, -55)
 
 combat_arr = {

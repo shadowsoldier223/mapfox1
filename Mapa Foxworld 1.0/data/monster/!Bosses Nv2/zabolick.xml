@@ -19,25 +19,27 @@
     <flag runonhealth="0"/>
   </flags>
   <attacks>
-    <attack name="melee" interval="1200" skill="150" attack="180"/>
-    <attack name="orshabaal berserk" interval="5000" chance="30" min="-400" max="-1000"/>
-    <attack name="eternal winter" interval="2000" chance="30" min="-800" max="-1000"/>
-    <attack name="ice wave" interval="3000" chance="30" min="-750" max="-1500"/>
+    <attack name="melee" interval="1200" skill="100" attack="180"/>
+    <attack name="eternal winter" interval="5000" chance="30" min="-200" max="-700"/>
+    <attack name="icerain" interval="2000" chance="90" min="-300" max="-1100"/>
+    <attack name="icerainn" interval="1000" chance="90" min="-300" max="-1100"/>
+    <attack name="ice wave" interval="3000" chance="30" min="-150" max="-600"/>
     <attack name="speed" interval="1000" chance="13" length="8" spread="0" speedchange="-800" duration="20000">
-      <attribute key="areaEffect" value="energy"/>
+      <attribute key="areaEffect" value="icetornado"/>
     </attack>
-    <attack name="physical" interval="2000" chance="30" range="7" target="1" min="-600" max="-1000">
-      <attribute key="shootEffect" value="largerock"/>
+    <attack name="physical" interval="2000" chance="60" range="7" target="1" min="-400" max="-700">
+      <attribute key="shootEffect" value="smallice"/>
+      <attribute key="areaEffect" value="icetornado"/>
     </attack>
-<attack name="melee" interval="2000" chance="30" range="7" radius="4" target="0" min="-500" max="-1200">
-  <attribute key="areaEffect" value="blackspark"/>
+<attack name="melee" interval="2000" chance="30" range="7" radius="4" target="0" min="-100" max="-700">
+  <attribute key="areaEffect" value="iceattack"/>
 </attack>
   </attacks>
   <defenses armor="25" defense="100">
   </defenses>
   <elements>
 	<element energyPercent="-20"/>
-	<element physicalPercent="-30"/>
+	<element firePercent="-20"/>
   </elements>
   <immunities>
     <immunity fire="0"/>
@@ -48,10 +50,8 @@
     <immunity paralyze="1"/>
     <immunity invisible="1"/>
   </immunities>
-  <summons maxSummons="3">
-    <summon name="water elemental" interval="500" chance="100"/>
-    <summon name="water elemental" interval="500" chance="100"/>
-    <summon name="water elemental" interval="500" chance="100"/>				 
+  <summons maxSummons="0">
+    <summon name="zabolick minion" interval="500" chance="0"/>			 
   </summons>
   <voices interval="2000" chance="45">
     <voice sentence="YOU AREN'T STRONG ENOUGH TO KILL ME"/>
@@ -60,19 +60,19 @@
     <voice sentence="GET OUT OF MY WAY YOUR INSIGNICANT HUMAN!"/>
   </voices>
   <loot>
-    <item id="2148" countmax="20" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="2160" countmax="30" chance1="30000" chancemax="0"/> --Crystal Coins
     <item id="7290" chance="3666"/> --Shard
-    <item id="8907" chance="2500"/> --Ice Shield
+    <item id="8907" chance="20000"/> --Ice Shield
     <item id="2145" countmax="1" chance1="3333" chancemax="0"/> --Small Diamond
-    <item id="8879" chance="4000"/> --Phantasm Armor
-    <item id="1987" chance="1000"> --Bag
+    <item id="8879" chance="50000"/> --Phantasm Armor
+    <item id="1987" chance="50000"> --Bag
       <inside>
           <item id="2148" countmax="20" chance1="100000" chancemax="0"/> --Gold Coins
           <item id="2146" countmax="1" chance1="4200" chancemax="0"/> --Small Sapphire
-          <item id="2396" chance="700"/> --Ice Rapier
-          <item id="2361" chance="1700"/> --Frozen Starlight
-          <item id="2390" chance="4000"/> --Magic LongSword
-          <item id="7449" chance="1999"/> --Crystal Sword
+          <item id="2396" chance="70000"/> --Ice Rapier
+          <item id="2361" chance="17000"/> --Frozen Starlight
+          <item id="2390" chance="20000"/> --Magic LongSword
+          <item id="7407" chance="18000"/> --Haunted Blade
        </inside>
      </item>
   </loot>

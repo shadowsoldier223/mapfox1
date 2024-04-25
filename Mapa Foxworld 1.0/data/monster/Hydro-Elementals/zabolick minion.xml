@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Water Elemental" nameDescription="a Water Elemental" race="undead" experience="450" species="ice" speed="280" manacost="0">
+  <monster name="zabolick minion" nameDescription="a zabolick minion" race="undead" experience="450" species="ice" speed="280" manacost="0">
     <health now="550" max="550"/>
     <look type="286" corpse="2016"/>
     <targetchange interval="20000" chance="15"/>
@@ -21,8 +21,8 @@
     <attacks>
     <attack name="melee" interval="2000" skill="75" attack="65"/>
     <attack name="earth" interval="2000" chance="20" range="7" target="1" min="0" max="-120">
-    <attribute key="shootEffect" value="earth"/>
-	<attribute key="areaEffect" value="smallplants"/>
+    <attribute key="shootEffect" value="smallice"/>
+	<attribute key="areaEffect" value="icetornado"/>
     </attack>
     <attack name="physical" interval="1000" chance="10" range="6" target="1" min="0" max="-209">
 	<attribute key="shootEffect" value="snowball"/>
@@ -48,8 +48,8 @@
 </elements>
   <immunities>
     <immunity ice="1"/>
-    <immunity fire="1"/>
-    <immunity poison="1"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
     <immunity paralyze="1"/>
     <immunity invisible="1"/>
   </immunities>

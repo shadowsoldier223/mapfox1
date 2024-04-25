@@ -2,8 +2,8 @@ local config = {
   manapercent = 0.90,
   seconds = 10,
   storage = 7,
-  semMana = "Você não tem mana suficiente.",
-  msg = "Você precisa aguardar %d segundos para usar essa magia novamente.",
+  semMana = "Vocï¿½ nï¿½o tem mana suficiente.",
+  msg = "Vocï¿½ precisa aguardar %d segundos para usar essa magia novamente.",
 }
 
 local function useAgain(cid)
@@ -18,7 +18,7 @@ setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -4.3, -200, -4.4, -200)
 
 local condition = createConditionObject(CONDITION_PARALYZE)
 setConditionParam(condition, CONDITION_PARAM_TICKS, 20000)
-setConditionFormula(condition, -0.7, 0, -0.7, 0)
+setConditionFormula(condition, -0.9, 0, -0.9, 0)
 setCombatCondition(combat, condition)
 
 local combat0 = createCombatObject()
@@ -28,7 +28,7 @@ setCombatFormula(combat0, COMBAT_FORMULA_LEVELMAGIC, -3.5, -200, -3.6, -200)
 
 local condition0 = createConditionObject(CONDITION_PARALYZE)
 setConditionParam(condition0, CONDITION_PARAM_TICKS, 20000)
-setConditionFormula(condition0, -0.7, 0, -0.7, 0)
+setConditionFormula(condition0, -0.8, 0, -0.8, 0)
 setCombatCondition(combat0, condition0)
 
 local arr = {

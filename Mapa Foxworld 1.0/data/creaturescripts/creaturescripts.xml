@@ -8,6 +8,7 @@
 	<event type="death" name="PlayerDeath" script="playerdeath.lua"/>
 	<event type="joinchannel" name="GuildMotd" script="guildmotd.lua"/>
         <event type="kill" name="boss" script="boss.lua" />
+		<event type="kill" name="morthar" script="morthar.lua" />
         <event type="kill" name="owned" script="owned.lua"/>
         <event type="death" name="Pythius the rottenTeleport" script="Pythius the rotten_teleport.lua"/>
 

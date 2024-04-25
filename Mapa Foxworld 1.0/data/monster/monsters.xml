@@ -51,6 +51,8 @@
 	<monster name="Infernatil" file="!Bosses Nv2/Infernatil.xml"/>
 	<monster name="Diablo" file="!Bosses Nv2/Diablo.xml"/>
 	<monster name="zabolick" file="!Bosses Nv2/zabolick.xml"/>
+	<monster name="Aegis" file="!Bosses Nv2/aegis.xml"/>
+	<monster name="morthar the giant" file="!Bosses Nv2/morthar the giant.xml"/>
 
 	<!--8.4-->
                <monster name="Acid Blob" file="8.4/acid blob.xml"/>
@@ -281,7 +283,7 @@
 	<monster name="Slick Water Elemental" file="hydro-elementals/Slick Water Elemental.xml"/>
 	<monster name="Roaring Water Elemental" file="hydro-elementals/Roaring Water Elemental.xml"/>
 	<monster name="Ice Overlord" file="hydro-elementals/Ice Overlord.xml"/>
-	<monster name="Water Elemental" file="hydro-elementals/water elemental.xml"/>
+	<monster name="zabolick minion" file="hydro-elementals/zabolick minion.xml"/>
 	<monster name="Massive Water Elemental" file="hydro-elementals/massive water elemental.xml"/>
 	
 	<!-- Insects -->

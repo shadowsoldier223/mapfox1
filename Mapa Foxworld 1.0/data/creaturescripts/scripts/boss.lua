@@ -111,7 +111,7 @@ return TRUE
 end  
 
 function onKill(cid, target, lastHit)
-    local monstros = {"Zabolick", "zabolick", ""}
+    local monstros = {"Zabolick", "zabolick"}
 
     if getCreatureTarget(cid) ~= 0 then
         if isMonster(target) == TRUE then
