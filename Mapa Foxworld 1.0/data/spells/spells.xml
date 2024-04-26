@@ -399,6 +399,10 @@
 	<!-- Storage Spells-->
 	<instant name="Extreme Paralyze" words="extreme paralyze" lvl="200" aggressive="1" needlearn="0" mana="0" exhaustion="0" script="vip/extreme paralyze.lua">
 	</instant>
+	<instant name="King Teleport" words="king teleport" lvl="200" aggressive="1" needlearn="0" mana="0" exhaustion="0" script="vip/king teleport.lua">
+	</instant>
+	<instant name="Diablo Rain" words="diablo rain" lvl="200" aggressive="1" needlearn="0" mana="0" exhaustion="0" script="monsters/diablorain.lua">
+	</instant>
 
 	<!-- Summon Spells -->
 	<instant name="Summon Creature" words="utevo res" lvl="25" params="1" exhaustion="1000" needlearn="0" function="summonMonster">
@@ -620,6 +624,7 @@
                <instant name="barreira" words="barreira" direction="0" enabled="0" script="monsters/barreira.lua"></instant>
                <instant name="cura" words="cura" enabled="0" script="monsters/cura.lua"></instant>
                <instant name="death rain" words="death rain" enabled="0" script="monsters/death rain.lua"></instant>
+			   <instant name="king monster" words="king monster" enabled="0" script="monsters/king monster.lua"></instant>
                <instant name="diablo change" words="diablo change" enabled="0" script="monsters/diablo change.lua"></instant>
                <instant name="tower" words="tower" enabled="0" script="monsters/tower.lua"></instant>
 			   <instant name="aegiss" words="aegiss" enabled="0" script="monsters/aegis monster.lua"></instant>
