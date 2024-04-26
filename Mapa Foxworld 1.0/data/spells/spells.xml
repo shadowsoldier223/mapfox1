@@ -401,7 +401,7 @@
 	</instant>
 	<instant name="King Teleport" words="king teleport" lvl="200" aggressive="1" needlearn="0" mana="0" exhaustion="0" script="vip/king teleport.lua">
 	</instant>
-	<instant name="Diablo Rain" words="diablo rain" lvl="200" aggressive="1" needlearn="0" mana="0" exhaustion="0" script="monsters/diablorain.lua">
+	<instant name="Diablo Rain" words="diablo rain" lvl="200" aggressive="1" needlearn="0" mana="0" exhaustion="0" script="vip/diablorain.lua">
 	</instant>
 
 	<!-- Summon Spells -->
